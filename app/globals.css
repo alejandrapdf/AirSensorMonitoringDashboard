@@ -1,26 +1,272 @@
 @import "tailwindcss";
 
+html {
+  font-size: clamp(14px, 1vw + 10px, 18px);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --green: #719D54;
+  --teal: #4F7477;
+  --gray: #545656;
+  --bg: #F4F7F5;
+  --card-bg: #fff;
+
+  /* Status colors */
+  --critical: #D4483B;
+  --critical-border: #E6B5B0;
+
+  /* Sidebar + accents */
+  --sidebar-bg: darkslategray;
+  --active-bg: #72a65d;
+  --hover-bg: lightgrey;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root[data-theme="accessible"] {
+  --green: #4A9F70;          /* safer than standard green */
+  --teal: #1B5E68;           /* stronger contrast */
+  --sidebar-bg: #0F4C5C;
+  --active-bg: #2C9AB7;      /* blue-green = readable for red/green CVD */
+  --critical: #C4473A;       /* red-orange = visible to all CVD types */
+  --critical-border: #DC9A87;
+  --hover-bg: #C8D8E0;
 }
 
+/* LAYOUT */
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: Arial, sans-serif;
+  color: var(--gray);
+  display: flex;
+}
+
+
+/* Add universal smoothness */
+* {
+  transition: 0.25s ease;
+}
+
+
+.sidebar {
+  width: 240px;
+  background: var(--sidebar-bg);
+  min-height: 100vh;
+  padding: 32px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  transition: width .3s ease;
+  position: relative;
+  box-shadow: inset -4px 0 6px rgba(0,0,0,0.08);
+}
+
+/* Collapse to icon-only mode */
+.sidebar.collapsed {
+  width: 80px;
+}
+
+/* Logo visibility toggle */
+
+/* Navigation */
+.nav-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  align-items: flex-start;
+}
+
+.icon-normal svg {
+  width: 22px;
+  height: 22px;
+}
+
+.icon-large svg {
+  width: 20px;
+  height: 20px; 
+}
+
+
+
+.sidebar-item {
+  
+  padding: 12px 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: 0.25s ease;
+}
+
+/* Hover state — industry style lift */
+.sidebar-item:hover {
+  background: var(--hover-bg);
+  transform: translateX(6px);
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+}
+
+
+/* big item*/
+.sidebar-item.active {
+  background: var(--active-bg);         /* highlight body */
+  border-radius: 18px;
+  padding-right: 100px;        /* push content left so right side touches menu edge */
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+/* Glow + icon color change */
+.sidebar-item.active svg {
+  stroke: #fff;
+}
+
+
+/* Collapse behavior */
+.sidebar.collapsed .sidebar-item active .sidebar-item span { display:none; }
+.sidebar.collapsed .sidebar-item { padding-right: 35px; justify-content:center;  }
+
+/* Collapse toggle */
+.collapse-btn {
+  position: absolute;
+  top: 300px;
+  right: 25px;
+  border-radius: 8px;
+  padding: 6px 9px;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+.collapse-btn:hover { transform: scale(1.12); }
+
+
+
+/* DASHBOARD AREA */
+.main-wrapper {
+  flex: 1;
+  padding: 40px;
+}
+
+.topbar {
+  background: var(--teal);
+  padding: 14px 24px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+}
+
+
+
+/* =================== 🌿 KPI METRIC CARDS =================== */
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.metric-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 22px 26px;
+  border: 1px solid #D5DEC7;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: .25s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.metric-value {
+  font-size: 34px;
+  font-weight: 800;
+  color: #2D3E1E; /* Deere-style dark soil tone */
+}
+
+.metric-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #546243;
+  opacity: .85;
+}
+
+/* Special critical red indicator */
+.metric-card.critical .metric-value { color: var(--critical); }
+.metric-card.critical { border-color: var(--critical-border); }
+
+/* METRICS */
+.metrics {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.metric-box {
+  flex: 1;
+  min-width: 180px;
+  border-radius: 16px;
+  padding: 32px;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+.metric-box:hover {
+  transform: scale(1.03);
+}
+
+.metric1 { background: linear-gradient(135deg, #719D54, #4F7477); }
+.metric2 { background: linear-gradient(135deg, #4FC3F7, #0288D1); }
+.metric3 { background: linear-gradient(135deg, #F44336, #C62828); }
+
+/* MAP */
+.map-container {
+  width: 100%;
+  height: 340px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+/* SCOUT CARDS */
+.section-title { font-size: 20px; font-weight: 700; margin: 25px 0 15px; }
+
+.scout-grid {
+  display: flex;
+  gap: 20px;
+    gap: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* 🌙 Dark Mode Support */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

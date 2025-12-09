@@ -51,6 +51,10 @@ cd soilscout_prototype
 npm install
 ```
 
+```bash
+npm install lucide-react
+```
+
 ### 3️⃣ Start Local Dev Server
 
 ```bash
