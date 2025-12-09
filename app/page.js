@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import MetricToggle from "./components/dashboard/MetricToggle";
-
+import MetricDisplaySection from "./components/dashboard/MetricDisplaySection";
 
 /**
  * Dashboard Home
@@ -20,12 +20,8 @@ export default function HomePage() {
       <section>
         <h3 className="text-xl font-semibold mb-6">Metrics</h3>
       <MetricToggle metric={metric} setMetric={setMetric} />
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-          
-          <MetricCard label="Avg Soil Health" value="78%" />
-          <MetricCard label="Sensors Online" value="24" />
-          <MetricCard label="Critical Scouts" value="3" critical />
-        </div>
+      <MetricDisplaySection metric={metric} setMetric={setMetric} />
+        
       </section>
 
 
