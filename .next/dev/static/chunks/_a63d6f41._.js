@@ -623,6 +623,103 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/app/components/hooks/useSensorData.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useSensorData",
+    ()=>useSensorData
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mockSensorData.js [app-client] (ecmascript)");
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+function useSensorData(metric) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
+    if ($[0] !== "5ca09d6660742c72b724d88caf8526197b19ee2ceb2609db5594f4d30a426a31") {
+        for(let $i = 0; $i < 13; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "5ca09d6660742c72b724d88caf8526197b19ee2ceb2609db5594f4d30a426a31";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = [];
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const [values, setValues] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(t0);
+    let t1;
+    let t2;
+    if ($[2] !== metric) {
+        t1 = ({
+            "useSensorData[useEffect()]": ()=>{
+                const extracted = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map({
+                    "useSensorData[useEffect() > mockSensorData.map()]": (d)=>metric === "moisture" ? d.moisture : d.temp
+                }["useSensorData[useEffect() > mockSensorData.map()]"]);
+                setValues(extracted);
+            }
+        })["useSensorData[useEffect()]"];
+        t2 = [
+            metric
+        ];
+        $[2] = metric;
+        $[3] = t1;
+        $[4] = t2;
+    } else {
+        t1 = $[3];
+        t2 = $[4];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
+    let t3;
+    if ($[5] !== values) {
+        t3 = values.at(-1);
+        $[5] = values;
+        $[6] = t3;
+    } else {
+        t3 = $[6];
+    }
+    const t4 = Math.min(...values);
+    const t5 = Math.max(...values);
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map(_useSensorDataMockSensorDataMap);
+        $[7] = t6;
+    } else {
+        t6 = $[7];
+    }
+    let t7;
+    if ($[8] !== t3 || $[9] !== t4 || $[10] !== t5 || $[11] !== values) {
+        t7 = {
+            values,
+            latest: t3,
+            min: t4,
+            max: t5,
+            timestamps: t6
+        };
+        $[8] = t3;
+        $[9] = t4;
+        $[10] = t5;
+        $[11] = values;
+        $[12] = t7;
+    } else {
+        t7 = $[12];
+    }
+    return t7;
+}
+_s(useSensorData, "MUTFxQAuUpcOXBWJSk1wNF5j2Y4=");
+function _useSensorDataMockSensorDataMap(d_0) {
+    return d_0.time;
+}
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/app/components/dashboard/MetricDisplaySection.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -647,11 +744,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/dashboard/MetricCard.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mockSensorData.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$chartjs$2d$2$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-chartjs-2/dist/index.js [app-client] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '../../hooks/useSensorData'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/hooks/useSensorData.js [app-client] (ecmascript)");
 // Chart.js modules (visual output layer)
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/chart.js/dist/chart.js [app-client] (ecmascript) <locals>");
 ;
@@ -668,14 +761,14 @@ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$d
 function MetricDisplaySection(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(42);
-    if ($[0] !== "506ba16390fadcff4a0f266d0b6fe08b14fc496a11ea4d6d63162796abfecc5b") {
+    if ($[0] !== "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88") {
         for(let $i = 0; $i < 42; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "506ba16390fadcff4a0f266d0b6fe08b14fc496a11ea4d6d63162796abfecc5b";
+        $[0] = "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88";
     }
     const { metric } = t0;
-    const { values, latest, min, max } = useSensorData(metric);
+    const { values, latest, min, max } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"])(metric);
     let t1;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t1 = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map(_MetricDisplaySectionMockSensorDataMap);
@@ -1000,7 +1093,7 @@ function MetricDisplaySection(t0) {
 }
 _s(MetricDisplaySection, "tnkNadGeTtfUIQ7JXnkqKUe73MY=", false, function() {
     return [
-        useSensorData
+        __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"]
     ];
 });
 _c = MetricDisplaySection;
@@ -1117,4 +1210,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=_d15b2353._.js.map
+//# sourceMappingURL=_a63d6f41._.js.map

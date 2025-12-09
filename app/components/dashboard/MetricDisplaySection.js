@@ -17,7 +17,7 @@
 import MetricCard from "./MetricCard";
 import { mockSensorData } from "@/lib/mockSensorData";
 import { Line } from "react-chartjs-2";
-import { useState, useEffect } from "react";
+import { useSensorData } from "../hooks/useSensorData";
 
 // Chart.js modules (visual output layer)
 import {
@@ -37,19 +37,18 @@ ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip,
 export default function MetricDisplaySection({ metric }) {
 
  
-  const [values, setValues] = useState([]);
+//"Custom Hook" requirement
+const { values, latest, min, max } = useSensorData(metric);
 
-  useEffect(() => {
-    // Simulate data fetching / compute values when metric changes
-    const extracted = mockSensorData.map(d =>
-      metric === "moisture" ? d.moisture : d.temp
-    );
-    setValues(extracted);
-  }, [metric]);
 
-  const latest = values.at(-1);
-  const min = Math.min(...values);
-  const max = Math.max(...values);
+  const formattedDates = mockSensorData.map(entry =>
+  new Intl.DateTimeFormat("en-GB", {
+    weekday: "short",   // Mon, Tue, Wed
+    day: "numeric",     // 1, 2, 3
+    month: "short"      // Jan, Feb, Mar
+  }).format(entry.time)
+);
+
 
 
   /* ---------------------------------------------------------------------------
@@ -62,8 +61,7 @@ export default function MetricDisplaySection({ metric }) {
      This visualization complements summary cards by answering: "How are values trending?"
   --------------------------------------------------------------------------- */
   const chartData = {
-    labels: mockSensorData.map(d => d.time), // Simple weekday scale = quick readability
-    datasets: [
+    labels: formattedDates, datasets: [
       {
         label: metric === "moisture" ? "Soil Moisture (%)" : "Temperature (°C)",
         data: values,

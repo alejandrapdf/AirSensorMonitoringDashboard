@@ -138,3 +138,1944 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
 
 [00:22:29.860] Server  LOG      ✓ Compiled in 196ms
+[00:24:34.524] Server  LOG      ✓ Compiled in 29ms
+[00:24:44.173] Server  LOG      ✓ Compiled in 40ms
+[00:24:44.276] Browser ERROR   ./lib/mockSensorData.js:22:17
+Parsing ecmascript source code failed
+  20 | const chartData = {
+  21 |   labels: formattedDates,
+> 22 |   datasets: [...]
+     |                 ^
+  23 | };
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./lib/mockSensorData.js [Client Component Browser]
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/mockSensorData.js [Client Component SSR]
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:26:32.357] Server  LOG      ✓ Compiled in 84ms
+[00:26:32.408] Browser ERROR   uncaughtError: ReferenceError: formattedDates is not defined
+[00:26:41.678] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:41.706] Server  LOG      ✓ Compiled in 76ms
+[00:26:42.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:42.271] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="flex h-scr...">
+                            <Sidebar>
+                            <div className="flex flex-...">
+                              <Topbar>
+                                <header
++                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
+-                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
+                                >
+                                  <h1>
+                                  <div className="flex items...">
+                                    <input
+                                      type="text"
+                                      placeholder="Search..."
++                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white dark:bg-zin..."}
+-                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white dark:bg-zinc-800 shadow-..."
+                                    >
+                                    <div className="relative" ref={{current:null}}>
+                                      <button
+                                        onClick={function Topbar[<button>.onClick]}
++                                       className={"w-9 h-9 rounded-full bg-green-700 text-white font-bold\r\n       ..."}
+-                                       className="w-9 h-9 rounded-full bg-green-700 text-white font-bold   flex items..."
+                                      >
++                                       A
+                              ...
+                  ...
+
+[00:28:29.784] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.785] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.787] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.788] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.789] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.791] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.793] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.795] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.797] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.799] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.801] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.803] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.805] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.807] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.808] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.810] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.812] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.817] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.819] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.820] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.824] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.825] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.827] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.828] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.830] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.832] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.833] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.835] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.837] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.839] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.840] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.842] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:29.856] Server  LOG      ✓ Compiled in 150ms
+[00:28:29.962] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '@/hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "@/hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import map: aliased to relative './hooks/useSensorData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:00.704] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.705] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.707] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.708] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.710] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.712] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.713] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.715] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.717] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.718] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.720] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.721] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.723] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.725] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.726] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.727] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.729] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.731] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.733] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.734] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.736] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.738] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.739] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.740] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.742] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.744] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.746] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.747] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.749] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.750] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.752] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.753] Server  ERROR    ⨯ ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:00.754] Server  LOG      ✓ Compiled in 61ms
+[00:29:00.873] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:11.772] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:37.867] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:41.589] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:43.721] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:49.604] Browser ERROR   ./app/components/dashboard/MetricDisplaySection.js:20:1
+Module not found: Can't resolve '../../hooks/useSensorData'
+  18 | import { mockSensorData } from "@/lib/mockSensorData";
+  19 | import { Line } from "react-chartjs-2";
+> 20 | import { useSensorData } from "../../hooks/useSensorData";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 |
+  22 | // Chart.js modules (visual output layer)
+  23 | import {
+
+Import traces:
+  Client Component Browser:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/components/dashboard/MetricDisplaySection.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:37.125] Server  LOG      ✓ Compiled in 53ms
