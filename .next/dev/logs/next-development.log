@@ -600,3 +600,5180 @@ It can also happen if the client has a browser extension installed which messes 
                               ...
                   ...
 
+[00:09:53.401] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.402] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.404] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.406] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.436] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.438] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.439] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.441] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.443] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.445] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.446] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.447] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.448] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.449] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.485] Server  LOG      ✓ Compiled in 89ms
+[00:09:53.557] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.559] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.560] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.562] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.566] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.567] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.569] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.571] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.614] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.615] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.616] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.617] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.618] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.619] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.620] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.620] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.621] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.622] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.623] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.624] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.625] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.626] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.627] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.628] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.737] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.743] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.745] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.746] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.748] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.749] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.751] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.752] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.755] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.756] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.760] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.763] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.765] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.767] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.768] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.771] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.773] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.775] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.776] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.777] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.780] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.781] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.782] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.783] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.785] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.786] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.788] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.793] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.795] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.798] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.800] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.801] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.839] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.854] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.863] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.865] Server  ERROR    ⨯ ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.866] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.868] Server  ERROR    ⨯ ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.869] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.870] Server  ERROR    ⨯ ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:54.629] Browser ERROR   ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.629] Browser ERROR   ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.629] Browser ERROR   ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.629] Browser ERROR   ./app/page.js:3:1
+Module not found: Can't resolve './components/MetricCard'
+  1 | "use client";
+  2 |
+> 3 | import MetricCard from "./components/MetricCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Image from "next/image";
+  5 | import Link from "next/link";
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.629] Browser ERROR   ./app/layout.js:10:1
+Module not found: Can't resolve './components/Sidebar'
+   8 |
+   9 | import "./globals.css";
+> 10 | import Sidebar from "./components/Sidebar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | import Topbar from "./components/Topbar";
+  12 |
+  13 | export const metadata = {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.629] Browser ERROR   ./app/layout.js:11:1
+Module not found: Can't resolve './components/Topbar'
+   9 | import "./globals.css";
+  10 | import Sidebar from "./components/Sidebar";
+> 11 | import Topbar from "./components/Topbar";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 |
+  13 | export const metadata = {
+  14 |   title: "SoilScout Dashboard",
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:57.937] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.943] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.947] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.949] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.951] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.959] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.963] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.964] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.969] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.971] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.973] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.974] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.976] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.978] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.980] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.981] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.995] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.996] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.998] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:57.999] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.000] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.001] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.002] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.003] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.005] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.007] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.008] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.010] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.011] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.012] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.013] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.014] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.015] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.016] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.018] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.018] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.019] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.020] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.021] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.022] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.024] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.025] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.027] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.028] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.029] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.030] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.031] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.032] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.034] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.034] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.036] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.037] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.038] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.039] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.040] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.042] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:58.045] Server  LOG      ✓ Compiled in 254ms
+[00:09:58.824] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:58.824] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:05.302] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:05.303] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.322] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:36.322] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:04.802] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.804] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.805] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.806] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.807] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.807] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.809] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.810] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.811] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.812] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.812] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.813] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.814] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.815] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.816] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.817] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.818] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.819] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.821] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.823] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.824] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.826] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.827] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.828] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.829] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.830] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.831] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.832] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.833] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.834] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.836] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:04.837] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:05.769] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../public/icon.png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../public/icon.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:05.769] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../public/icon.png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:39.030] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.031] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.032] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.034] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.036] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.037] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.039] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.040] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.041] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.042] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.043] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.045] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.046] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.047] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.048] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.049] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.052] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.053] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.054] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.055] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.057] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.058] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.059] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.060] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.061] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.062] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.064] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.065] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.067] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.070] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.072] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.073] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.075] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.076] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.078] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.079] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.080] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.081] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.084] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.085] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.087] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.089] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.091] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.092] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.093] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.095] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.096] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.097] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.099] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.101] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.104] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.105] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.106] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.107] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.107] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.108] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:39.110] Server  LOG      ✓ Compiled in 64ms
+[00:11:39.220] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:39.220] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:42.629] Browser ERROR   ./app/components/dashboard/Sidebar.js:13:1
+Module not found: Can't resolve '../../../public/icon,png'
+  11 | // Brand assets
+  12 | import logo from "../../public/soilScout.png";
+> 13 | import smallLogo from "../../../public/icon,png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | /**
+  16 |  * =============================================================================
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:42.629] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon,png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:46.354] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.357] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.358] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.360] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.400] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.402] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.403] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.405] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.422] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.424] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.425] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.426] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.427] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.428] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.429] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.430] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.432] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.433] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.434] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.435] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.436] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.437] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.438] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.439] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.440] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.441] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.442] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.443] Server  ERROR    ⨯ ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:46.467] Server  LOG      ✓ Compiled in 209ms
+[00:11:46.585] Browser ERROR   ./app/components/dashboard/Sidebar.js:12:1
+Module not found: Can't resolve '../../public/soilScout.png'
+  10 |
+  11 | // Brand assets
+> 12 | import logo from "../../public/soilScout.png";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | import smallLogo from "../../../public/icon.png";
+  14 |
+  15 | /**
+
+Import trace:
+  Server Component:
+    ./app/components/dashboard/Sidebar.js
+    ./app/layout.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:02.738] Server  LOG      ✓ Compiled in 49ms
+[00:13:20.801] Server  LOG      ✓ Compiled in 32ms
+[00:13:20.894] Browser ERROR   uncaughtError: ReferenceError: metric is not defined
+[00:13:36.622] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:36.639] Server  LOG      ✓ Compiled in 37ms
+[00:13:36.824] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\_01dd9420._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:36.825] Server  ERROR    ⨯ ReferenceError: metric is not defined
+[00:13:37.020] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:37.894] Browser ERROR   uncaughtError: ReferenceError: metric is not defined
+[00:13:39.886] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:40.065] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\_01dd9420._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:40.066] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:13:40.082] Server  LOG      ✓ Compiled in 40ms
+[00:13:40.260] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:41.177] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:13:45.716] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:45.716] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:45.942] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\_01dd9420._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:45.944] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:46.021] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:13:46.025] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:13:46.038] Server  LOG      ✓ Compiled in 32ms
+[00:13:46.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:47.083] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:14:00.977] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:00.977] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:14:00.978] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:01.186] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:14:01.215] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:01.215] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\_01dd9420._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:01.217] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:01.217] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[00:14:01.234] Server  LOG      ✓ Compiled in 46ms
+[00:14:01.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:02.344] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:15:05.090] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:05.090] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:15:05.090] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:05.103] Server  LOG      ✓ Compiled in 33ms
+[00:15:05.279] Server  ERROR   C:\Users\alejd\project\soilScout_Assignment\MonitoringDashboard_SoilScout\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:05.279] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:15:05.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:06.355] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `HomePage`.
+[00:18:27.479] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:18:27.496] Server  LOG      ✓ Compiled in 78ms
+[00:18:27.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:28.879] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="flex h-scr...">
+                            <Sidebar>
+                            <div className="flex flex-...">
+                              <Topbar>
+                                <header
++                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
+-                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
+                                >
+                              ...
+                  ...
+
+[00:18:29.903] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

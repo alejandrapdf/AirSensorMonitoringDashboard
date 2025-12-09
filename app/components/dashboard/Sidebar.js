@@ -9,8 +9,8 @@ import Link from "next/link";
 import { Home, Cpu, Map } from "lucide-react";
 
 // Brand assets
-import logo from "../../public/soilScout.png";
-import smallLogo from "../../public/icon.png";
+import logo from "../../../public/soilScout.png";
+import smallLogo from "../../../public/icon.png";
 
 /**
  * =============================================================================

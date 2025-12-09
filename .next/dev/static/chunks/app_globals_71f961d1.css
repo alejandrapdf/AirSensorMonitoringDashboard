@@ -39,7 +39,10 @@
     --color-green-600: #00a544;
     --color-green-700: #008138;
     --color-blue-600: #155dfc;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5dc;
     --color-gray-400: #99a1af;
+    --color-gray-600: #4a5565;
     --color-zinc-50: #fafafa;
     --color-zinc-100: #f4f4f5;
     --color-zinc-200: #e4e4e7;
@@ -80,7 +83,10 @@
       --color-green-600: lab(59.0978% -58.6621 41.2579);
       --color-green-700: lab(47.0329% -47.0239 31.4788);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
+      --color-gray-200: lab(91.6229% -.159085 -2.26791);
+      --color-gray-300: lab(85.1236% -.612259 -3.7138);
       --color-gray-400: lab(65.9269% -.832707 -8.17474);
+      --color-gray-600: lab(35.6337% -1.58697 -10.8425);
       --color-zinc-50: lab(98.26% 0 0);
       --color-zinc-100: lab(96.1634% .0993013 -.364029);
       --color-zinc-200: lab(90.6853% .399202 -1.45452);
@@ -395,6 +401,10 @@
     margin-inline: auto;
   }
 
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
@@ -559,12 +569,20 @@
     border-color: var(--color-zinc-700);
   }
 
+  .bg-\[var\(--green\)\] {
+    background-color: var(--green);
+  }
+
   .bg-\[var\(--sidebar-bg\)\] {
     background-color: var(--sidebar-bg);
   }
 
   .bg-blue-600 {
     background-color: var(--color-blue-600);
+  }
+
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
   }
 
   .bg-gray-400 {
@@ -606,6 +624,10 @@
 
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
   }
 
   .px-5 {
@@ -681,6 +703,10 @@
     letter-spacing: var(--tracking-tight);
   }
 
+  .text-gray-600 {
+    color: var(--color-gray-600);
+  }
+
   .text-green-300 {
     color: var(--color-green-300);
   }
@@ -753,6 +779,12 @@
   .select-none {
     -webkit-user-select: none;
     user-select: none;
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-gray-300:hover {
+      background-color: var(--color-gray-300);
+    }
   }
 
   @media (hover: hover) {
