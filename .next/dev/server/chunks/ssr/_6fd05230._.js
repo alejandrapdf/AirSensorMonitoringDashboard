@@ -283,6 +283,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ============================================================================= */ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/dashboard/MetricCard.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mockSensorData.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$chartjs$2d$2$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-chartjs-2/dist/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 // Chart.js modules (visual output layer)
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/chart.js/dist/chart.js [app-ssr] (ecmascript) <locals>");
 "use client";
@@ -291,20 +292,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$
 ;
 ;
 ;
+;
 // Registered once globally → keeps component clean
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Chart"].register(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["CategoryScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LinearScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LineElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PointElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Tooltip"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Legend"]);
 function MetricDisplaySection({ metric }) {
-    /* ---------------------------------------------------------------------------
-     WHY data extraction is done here:
-     - UI needs to update instantly when user toggles Moisture ↔ Temperature
-     - Keeping logic inside this component ties visual changes to selected metric
-  --------------------------------------------------------------------------- */ const values = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["mockSensorData"].map((d)=>metric === "moisture" ? d.moisture : d.temp);
-    /* ---------------------------------------------------------------------------
-     WHY these values matter to the UI:
-     - "Latest" reading represents current field condition → largest + leftmost card
-     - Min/Max tell operator whether conditions have fluctuated dangerously
-     - Values displayed in summary cards allow fast scanning without reading graph
-  --------------------------------------------------------------------------- */ const latest = values.at(-1);
+    const [values, setValues] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Simulate data fetching / compute values when metric changes
+        const extracted = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["mockSensorData"].map((d)=>metric === "moisture" ? d.moisture : d.temp);
+        setValues(extracted);
+    }, [
+        metric
+    ]);
+    const latest = values.at(-1);
     const min = Math.min(...values);
     const max = Math.max(...values);
     /* ---------------------------------------------------------------------------
@@ -374,7 +374,7 @@ function MetricDisplaySection({ metric }) {
                         value: `${latest}${metric === "moisture" ? "%" : "°C"}`
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 112,
+                        lineNumber: 109,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -382,7 +382,7 @@ function MetricDisplaySection({ metric }) {
                         value: `${min}${metric === "moisture" ? "%" : "°C"}`
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 116,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -390,13 +390,13 @@ function MetricDisplaySection({ metric }) {
                         value: `${max}${metric === "moisture" ? "%" : "°C"}`
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 120,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 111,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -404,7 +404,7 @@ function MetricDisplaySection({ metric }) {
                 children: "Trend"
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 125,
+                lineNumber: 122,
                 columnNumber: 3
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -464,18 +464,18 @@ function MetricDisplaySection({ metric }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                    lineNumber: 131,
+                    lineNumber: 128,
                     columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 129,
+                lineNumber: 126,
                 columnNumber: 2
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-        lineNumber: 108,
+        lineNumber: 105,
         columnNumber: 5
     }, this);
 }

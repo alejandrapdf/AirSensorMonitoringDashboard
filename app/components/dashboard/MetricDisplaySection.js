@@ -17,6 +17,7 @@
 import MetricCard from "./MetricCard";
 import { mockSensorData } from "@/lib/mockSensorData";
 import { Line } from "react-chartjs-2";
+import { useState, useEffect } from "react";
 
 // Chart.js modules (visual output layer)
 import {
@@ -35,21 +36,17 @@ ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip,
 
 export default function MetricDisplaySection({ metric }) {
 
-  /* ---------------------------------------------------------------------------
-     WHY data extraction is done here:
-     - UI needs to update instantly when user toggles Moisture ↔ Temperature
-     - Keeping logic inside this component ties visual changes to selected metric
-  --------------------------------------------------------------------------- */
-  const values = mockSensorData.map(d =>
-    metric === "moisture" ? d.moisture : d.temp
-  );
+ 
+  const [values, setValues] = useState([]);
 
-  /* ---------------------------------------------------------------------------
-     WHY these values matter to the UI:
-     - "Latest" reading represents current field condition → largest + leftmost card
-     - Min/Max tell operator whether conditions have fluctuated dangerously
-     - Values displayed in summary cards allow fast scanning without reading graph
-  --------------------------------------------------------------------------- */
+  useEffect(() => {
+    // Simulate data fetching / compute values when metric changes
+    const extracted = mockSensorData.map(d =>
+      metric === "moisture" ? d.moisture : d.temp
+    );
+    setValues(extracted);
+  }, [metric]);
+
   const latest = values.at(-1);
   const min = Math.min(...values);
   const max = Math.max(...values);
