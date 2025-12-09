@@ -22,6 +22,7 @@ export default function HomePage() {
   Metrics
 </h3>
       <MetricToggle metric={metric} setMetric={setMetric} />
+      
       <MetricDisplaySection metric={metric} setMetric={setMetric} />
         
       </section>

@@ -574,6 +574,152 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/lib/mockSensorData.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Mock sensor readings for 7 days (Daily or Hourly readings)
+__turbopack_context__.s([
+    "mockSensorData",
+    ()=>mockSensorData
+]);
+const mockSensorData = [
+    {
+        time: new Date(2025, 0, 1),
+        moisture: 48,
+        temp: 21
+    },
+    {
+        time: new Date(2025, 0, 2),
+        moisture: 52,
+        temp: 23
+    },
+    {
+        time: new Date(2025, 0, 3),
+        moisture: 47,
+        temp: 22
+    },
+    {
+        time: new Date(2025, 0, 4),
+        moisture: 55,
+        temp: 25
+    },
+    {
+        time: new Date(2025, 0, 5),
+        moisture: 49,
+        temp: 24
+    },
+    {
+        time: new Date(2025, 0, 6),
+        moisture: 53,
+        temp: 26
+    },
+    {
+        time: new Date(2025, 0, 7),
+        moisture: 51,
+        temp: 22
+    }
+];
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/app/components/hooks/useSensorData.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useSensorData",
+    ()=>useSensorData
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mockSensorData.js [app-client] (ecmascript)");
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+function useSensorData(metric) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
+    if ($[0] !== "5ca09d6660742c72b724d88caf8526197b19ee2ceb2609db5594f4d30a426a31") {
+        for(let $i = 0; $i < 13; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "5ca09d6660742c72b724d88caf8526197b19ee2ceb2609db5594f4d30a426a31";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = [];
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const [values, setValues] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(t0);
+    let t1;
+    let t2;
+    if ($[2] !== metric) {
+        t1 = ({
+            "useSensorData[useEffect()]": ()=>{
+                const extracted = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map({
+                    "useSensorData[useEffect() > mockSensorData.map()]": (d)=>metric === "moisture" ? d.moisture : d.temp
+                }["useSensorData[useEffect() > mockSensorData.map()]"]);
+                setValues(extracted);
+            }
+        })["useSensorData[useEffect()]"];
+        t2 = [
+            metric
+        ];
+        $[2] = metric;
+        $[3] = t1;
+        $[4] = t2;
+    } else {
+        t1 = $[3];
+        t2 = $[4];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
+    let t3;
+    if ($[5] !== values) {
+        t3 = values.at(-1);
+        $[5] = values;
+        $[6] = t3;
+    } else {
+        t3 = $[6];
+    }
+    const t4 = Math.min(...values);
+    const t5 = Math.max(...values);
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map(_useSensorDataMockSensorDataMap);
+        $[7] = t6;
+    } else {
+        t6 = $[7];
+    }
+    let t7;
+    if ($[8] !== t3 || $[9] !== t4 || $[10] !== t5 || $[11] !== values) {
+        t7 = {
+            values,
+            latest: t3,
+            min: t4,
+            max: t5,
+            timestamps: t6
+        };
+        $[8] = t3;
+        $[9] = t4;
+        $[10] = t5;
+        $[11] = values;
+        $[12] = t7;
+    } else {
+        t7 = $[12];
+    }
+    return t7;
+}
+_s(useSensorData, "MUTFxQAuUpcOXBWJSk1wNF5j2Y4=");
+function _useSensorDataMockSensorDataMap(d_0) {
+    return d_0.time;
+}
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/app/components/dashboard/MetricDisplaySection.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -582,144 +728,382 @@ __turbopack_context__.s([
     ()=>MetricDisplaySection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+/* =============================================================================
+   MetricDisplaySection (UI & UX rationale)
+   -----------------------------------------------------------------------------
+   This component presents sensor readings in a format suited for quick monitoring.
+   The UI is intentionally structured so a user can:
+
+   • Immediately see the latest reading in a large, high-contrast card (high priority)
+   • Compare that reading against minimum + maximum values from the dataset
+   • Visually observe how values trend over time via a line chart
+
+   Data is mocked locally per assignment requirements — but UI is designed so a
+   live API feed can replace mock data later without redesign.
+============================================================================= */ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/dashboard/MetricCard.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/mockSensorData.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$chartjs$2d$2$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-chartjs-2/dist/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/hooks/useSensorData.js [app-client] (ecmascript)");
+// Chart.js modules (visual output layer)
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/chart.js/dist/chart.js [app-client] (ecmascript) <locals>");
+;
+var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 ;
+;
+;
+;
+// Registered once globally → keeps component clean
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Chart"].register(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["CategoryScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LinearScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LineElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PointElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Tooltip"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Legend"]);
 function MetricDisplaySection(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "4e1b029213f39f55cbca846c43747643a29d8b2aa9c94b39f191ab87df25b472") {
-        for(let $i = 0; $i < 13; $i += 1){
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(42);
+    if ($[0] !== "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88") {
+        for(let $i = 0; $i < 42; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4e1b029213f39f55cbca846c43747643a29d8b2aa9c94b39f191ab87df25b472";
+        $[0] = "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88";
     }
     const { metric } = t0;
-    const t1 = `Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`;
-    let t2;
-    if ($[1] !== t1) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            label: t1,
-            value: "--"
-        }, void 0, false, {
-            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 32,
-            columnNumber: 10
-        }, this);
+    const { values, latest, min, max } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"])(metric);
+    let t1;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mockSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["mockSensorData"].map(_MetricDisplaySectionMockSensorDataMap);
         $[1] = t1;
-        $[2] = t2;
     } else {
-        t2 = $[2];
+        t1 = $[1];
     }
+    const formattedDates = t1;
+    const t2 = metric === "moisture" ? "Soil Moisture (%)" : "Temperature (\xB0C)";
     let t3;
-    let t4;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            label: "Minimum",
-            value: "--"
-        }, void 0, false, {
-            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 41,
-            columnNumber: 10
-        }, this);
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            label: "Maximum",
-            value: "--"
-        }, void 0, false, {
-            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 42,
-            columnNumber: 10
-        }, this);
-        $[3] = t3;
-        $[4] = t4;
+    if ($[2] !== t2 || $[3] !== values) {
+        t3 = {
+            labels: formattedDates,
+            datasets: [
+                {
+                    label: t2,
+                    data: values,
+                    borderColor: "rgb(34,197,94)",
+                    backgroundColor: "rgba(34,197,94,0.4)",
+                    tension: 0.35,
+                    pointRadius: 4
+                }
+            ]
+        };
+        $[2] = t2;
+        $[3] = values;
+        $[4] = t3;
     } else {
-        t3 = $[3];
-        t4 = $[4];
+        t3 = $[4];
+    }
+    const chartData = t3;
+    let t4;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = {
+            labels: {
+                color: "#ddd"
+            }
+        };
+        $[5] = t4;
+    } else {
+        t4 = $[5];
     }
     let t5;
-    if ($[5] !== t2) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[6] !== metric) {
+        t5 = {
+            legend: t4,
+            tooltip: {
+                callbacks: {
+                    label: (ctx)=>`${ctx.raw}${metric === "moisture" ? "%" : "\xB0C"}`
+                }
+            }
+        };
+        $[6] = metric;
+        $[7] = t5;
+    } else {
+        t5 = $[7];
+    }
+    let t6;
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = {
+            x: {
+                ticks: {
+                    color: "#ccc"
+                }
+            },
+            y: {
+                ticks: {
+                    color: "#ccc"
+                }
+            }
+        };
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    let t7;
+    if ($[9] !== t5) {
+        t7 = {
+            responsive: true,
+            plugins: t5,
+            scales: t6
+        };
+        $[9] = t5;
+        $[10] = t7;
+    } else {
+        t7 = $[10];
+    }
+    const chartOptions = t7;
+    const t8 = `Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`;
+    const t9 = `${latest}${metric === "moisture" ? "%" : "\xB0C"}`;
+    let t10;
+    if ($[11] !== t8 || $[12] !== t9) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            label: t8,
+            value: t9
+        }, void 0, false, {
+            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
+            lineNumber: 134,
+            columnNumber: 11
+        }, this);
+        $[11] = t8;
+        $[12] = t9;
+        $[13] = t10;
+    } else {
+        t10 = $[13];
+    }
+    const t11 = `${min}${metric === "moisture" ? "%" : "\xB0C"}`;
+    let t12;
+    if ($[14] !== t11) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            label: "Minimum",
+            value: t11
+        }, void 0, false, {
+            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
+            lineNumber: 144,
+            columnNumber: 11
+        }, this);
+        $[14] = t11;
+        $[15] = t12;
+    } else {
+        t12 = $[15];
+    }
+    const t13 = `${max}${metric === "moisture" ? "%" : "\xB0C"}`;
+    let t14;
+    if ($[16] !== t13) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            label: "Maximum",
+            value: t13
+        }, void 0, false, {
+            fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
+            lineNumber: 153,
+            columnNumber: 11
+        }, this);
+        $[16] = t13;
+        $[17] = t14;
+    } else {
+        t14 = $[17];
+    }
+    let t15;
+    if ($[18] !== t10 || $[19] !== t12 || $[20] !== t14) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid sm:grid-cols-3 gap-6 mt-3 ",
             children: [
-                t2,
-                t3,
-                t4
+                t10,
+                t12,
+                t14
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 51,
-            columnNumber: 10
+            lineNumber: 161,
+            columnNumber: 11
         }, this);
-        $[5] = t2;
-        $[6] = t5;
+        $[18] = t10;
+        $[19] = t12;
+        $[20] = t14;
+        $[21] = t15;
     } else {
-        t5 = $[6];
+        t15 = $[21];
     }
-    const t6 = metric === "moisture" ? "Soil Moisture Chart" : "Temperature Chart";
-    let t7;
-    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "block text-sm opacity-70",
-            children: "(chart renders here once data + logic added)"
+    let t16;
+    if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+            className: "text-xl font-semibold mb-1 text-zinc-200",
+            children: "Trend"
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 60,
-            columnNumber: 10
+            lineNumber: 171,
+            columnNumber: 11
         }, this);
-        $[7] = t7;
+        $[22] = t16;
     } else {
-        t7 = $[7];
+        t16 = $[22];
     }
-    let t8;
-    if ($[8] !== t6) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mt-6 p-6 rounded-xl bg-[#2B2F31] shadow-sm flex items-center justify-center h-64",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-gray-500 text-lg text-center",
-                children: [
-                    "📊 ",
-                    t6,
-                    t7
-                ]
-            }, void 0, true, {
+    let t17;
+    if ($[23] !== chartData.datasets[0]) {
+        t17 = [
+            {
+                ...chartData.datasets[0],
+                borderWidth: 4,
+                pointRadius: 7,
+                pointHoverRadius: 11,
+                borderColor: "rgb(16,185,129)",
+                backgroundColor: "rgba(16,185,129,0.22)"
+            }
+        ];
+        $[23] = chartData.datasets[0];
+        $[24] = t17;
+    } else {
+        t17 = $[24];
+    }
+    let t18;
+    if ($[25] === Symbol.for("react.memo_cache_sentinel")) {
+        t18 = {
+            ticks: {
+                color: "#E5E5E5",
+                font: {
+                    size: 14
+                }
+            },
+            grid: {
+                color: "rgba(255,255,255,0.05)"
+            }
+        };
+        $[25] = t18;
+    } else {
+        t18 = $[25];
+    }
+    let t19;
+    let t20;
+    if ($[26] === Symbol.for("react.memo_cache_sentinel")) {
+        t19 = {
+            color: "#E5E5E5",
+            font: {
+                size: 14
+            }
+        };
+        t20 = {
+            color: "rgba(255,255,255,0.07)"
+        };
+        $[26] = t19;
+        $[27] = t20;
+    } else {
+        t19 = $[26];
+        t20 = $[27];
+    }
+    const t21 = min - 2;
+    const t22 = max + 2;
+    let t23;
+    if ($[28] !== t21 || $[29] !== t22) {
+        t23 = {
+            x: t18,
+            y: {
+                ticks: t19,
+                grid: t20,
+                suggestedMin: t21,
+                suggestedMax: t22
+            }
+        };
+        $[28] = t21;
+        $[29] = t22;
+        $[30] = t23;
+    } else {
+        t23 = $[30];
+    }
+    let t24;
+    if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
+        t24 = {
+            legend: {
+                labels: {
+                    color: "#fff",
+                    padding: 20,
+                    font: {
+                        weight: "bold",
+                        size: 14
+                    }
+                }
+            }
+        };
+        $[31] = t24;
+    } else {
+        t24 = $[31];
+    }
+    let t25;
+    if ($[32] !== chartOptions || $[33] !== t17 || $[34] !== t23) {
+        t25 = {
+            ...chartOptions,
+            datasets: t17,
+            scales: t23,
+            plugins: t24
+        };
+        $[32] = chartOptions;
+        $[33] = t17;
+        $[34] = t23;
+        $[35] = t25;
+    } else {
+        t25 = $[35];
+    }
+    let t26;
+    if ($[36] !== chartData || $[37] !== t25) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "rounded-xl bg-[#2B2F31] shadow-lg h-[420px] p-2 sm:p-4 md:p-6 flex items-center justify-center",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$chartjs$2d$2$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Line"], {
+                data: chartData,
+                options: t25
+            }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 67,
-                columnNumber: 108
+                lineNumber: 280,
+                columnNumber: 123
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 67,
-            columnNumber: 10
+            lineNumber: 280,
+            columnNumber: 11
         }, this);
-        $[8] = t6;
-        $[9] = t8;
+        $[36] = chartData;
+        $[37] = t25;
+        $[38] = t26;
     } else {
-        t8 = $[9];
+        t26 = $[38];
     }
-    let t9;
-    if ($[10] !== t5 || $[11] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+    let t27;
+    if ($[39] !== t15 || $[40] !== t26) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "flex flex-col gap-6",
             children: [
-                t5,
-                t8
+                t15,
+                t16,
+                t26
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 75,
-            columnNumber: 10
+            lineNumber: 289,
+            columnNumber: 11
         }, this);
-        $[10] = t5;
-        $[11] = t8;
-        $[12] = t9;
+        $[39] = t15;
+        $[40] = t26;
+        $[41] = t27;
     } else {
-        t9 = $[12];
+        t27 = $[41];
     }
-    return t9;
+    return t27;
 }
+_s(MetricDisplaySection, "tnkNadGeTtfUIQ7JXnkqKUe73MY=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"]
+    ];
+});
 _c = MetricDisplaySection;
+function _MetricDisplaySectionMockSensorDataMap(entry) {
+    return new Intl.DateTimeFormat("en-GB", {
+        weekday: "short",
+        day: "numeric",
+        month: "short"
+    }).format(entry.time);
+}
 var _c;
 __turbopack_context__.k.register(_c, "MetricDisplaySection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -754,11 +1138,11 @@ var _s = __turbopack_context__.k.signature();
 function HomePage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "4ed0edf58cf0e04458c4a3c78aff99ebc5b6d6bf6222f426d8e325e8f4b81d5b") {
+    if ($[0] !== "219972e57032df764b989255bb1d48534131772bebf89112b9991a2ae662648b") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4ed0edf58cf0e04458c4a3c78aff99ebc5b6d6bf6222f426d8e325e8f4b81d5b";
+        $[0] = "219972e57032df764b989255bb1d48534131772bebf89112b9991a2ae662648b";
     }
     const [metric, setMetric] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("moisture");
     let t0;
@@ -826,4 +1210,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=_b56385ce._.js.map
+//# sourceMappingURL=_a63d6f41._.js.map
