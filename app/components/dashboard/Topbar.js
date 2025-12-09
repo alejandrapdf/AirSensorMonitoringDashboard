@@ -1,38 +1,49 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { LogIn, LogOut } from "lucide-react";   // icons added
 
 /**
  * ============================================================================
- * <Topbar />
- * ----------------------------------------------------------------------------
- * Dashboard header with theme-accessibility toggle.
- *
- * Why this design works:
- * • Clear hierarchy — title left, controls right
- * • Toggle remains visually distinct + interactive
- * • Minimal visual weight keeps data as main focus
- *
- * Future-Ready Additions (optional)
- * • Search input, user avatar, notifications
- * • Breadcrumb navigation for deep page structure
+ *  Topbar — Search + Profile Dropdown + Dark/Light Theme Switch
+ * ============================================================================
+ * Features:
+ *  ✔ Search field beside avatar
+ *  ✔ Profile dropdown using initial avatar
+ *  ✔ Login + Logout buttons (placeholder)
+ *  ✔ Dark/Light mode toggle (real theme change!)
+ *  ✔ Persists theme upon reload via localStorage
  * ============================================================================
  */
-export default function Topbar() {
-  const [theme, setTheme] = useState("default");
 
-  // Restore saved theme preference on mount
+export default function Topbar() {
+  const [theme, setTheme] = useState("light");
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  /* Restore theme on load */
   useEffect(() => {
-    const saved = localStorage.getItem("theme") || "default";
+    const saved = localStorage.getItem("theme") || "light";
     setTheme(saved);
-    document.documentElement.setAttribute("data-theme", saved);
+    document.documentElement.classList.toggle("dark", saved === "dark");
   }, []);
 
+  /* Toggle dark <-> light */
   const toggleTheme = () => {
-    const next = theme === "accessible" ? "default" : "accessible";
+    const next = theme === "dark" ? "light" : "dark";
     setTheme(next);
-    document.documentElement.setAttribute("data-theme", next);
+    document.documentElement.classList.toggle("dark", next === "dark");
     localStorage.setItem("theme", next);
   };
+
+  /* Close dropdown when clicking outside */
+  useEffect(() => {
+    const close = e => {
+      if (menuRef.current && !menuRef.current.contains(e.target))
+        setMenuOpen(false);
+    };
+    document.addEventListener("click", close);
+    return () => document.removeEventListener("click", close);
+  }, []);
 
   return (
     <header
@@ -40,31 +51,65 @@ export default function Topbar() {
       bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50
       border-b border-zinc-200 dark:border-zinc-800"
     >
-      {/* Title */}
+      {/* Left — Page Title */}
       <h1 className="text-xl font-semibold tracking-tight">Dashboard</h1>
 
-      {/* Accessible Theme Toggle */}
-      <button
-        onClick={toggleTheme}
-        aria-label="Toggle accessibility theme"
-        className="flex items-center gap-2 cursor-pointer select-none"
-      >
-        {/* Icon remains neutral — avoids color conflict */}
-        <span className="text-lg">👁️</span>
+      {/* Right — Search + Avatar */}
+      <div className="flex items-center gap-4">
 
-        {/* Switch Track */}
-        <div
-          className={`relative w-11 h-6 rounded-full transition-colors duration-300
-          ${theme === "accessible" ? "bg-blue-600" : "bg-gray-400"}`}
-        >
-          {/* Switch Knob */}
-          <div
-            className={`absolute top-[2px] h-5 w-5 rounded-full bg-white shadow
-            transition-transform duration-300
-            ${theme === "accessible" ? "translate-x-5" : "translate-x-0"}`}
-          />
+        {/* Search Field */}
+        <input
+          type="text"
+          placeholder="Search sensors..."
+          className="w-64 px-3 py-2 rounded-lg text-sm
+          bg-white dark:bg-zinc-800 dark:border-zinc-600 shadow-sm border
+          focus:outline-none focus:ring-2 focus:ring-green-500"
+        />
+
+        {/* Avatar + Dropdown */}
+        <div className="relative" ref={menuRef}>
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="w-9 h-9 rounded-full bg-green-700 text-white font-bold
+            flex items-center justify-center uppercase"
+          >
+            A
+          </button>
+
+          {menuOpen && (
+            <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-zinc-800
+            border border-zinc-300 dark:border-zinc-700 rounded-md shadow-lg p-3
+            text-sm space-y-2 z-50">
+
+              {/* LOGIN */}
+              <button className="w-full flex items-center gap-2 p-2 text-left hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded">
+                <LogIn size={16} /> Login
+              </button>
+
+              {/* LOGOUT */}
+              <button className="w-full flex items-center gap-2 p-2 text-left hover:bg-zinc-100 dark:hover:bg-zinc-700 rounded">
+                <LogOut size={16} /> Logout
+              </button>
+
+              {/* DARK MODE SWITCH */}
+              <div className="flex items-center justify-between pt-2">
+                <span>Dark Mode</span>
+                <button
+                  onClick={toggleTheme}
+                  className={`w-10 h-5 rounded-full flex items-center p-1 transition
+                  ${theme === "dark" ? "bg-green-600" : "bg-gray-400"}`}
+                >
+                  <div
+                    className={`h-4 w-4 bg-white rounded-full shadow transition-transform
+                    ${theme === "dark" ? "translate-x-5" : ""}`}
+                  />
+                </button>
+              </div>
+
+            </div>
+          )}
         </div>
-      </button>
+      </div>
     </header>
   );
 }

@@ -195,7 +195,7 @@ body {
 .metric-value {
   font-size: 34px;
   font-weight: 800;
-  color: #2D3E1E; /* Deere-style dark soil tone */
+  color: #2D3E1E; 
 }
 
 .metric-label {

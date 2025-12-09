@@ -48,14 +48,6 @@ export default function Sidebar() {
         {collapsed && <Image src={smallLogo} alt="SoilScout Compact Logo" width={42} />}
       </div>
 
-      {/* Collapse Toggle */}
-      <button
-        onClick={() => setCollapsed(!collapsed)}
-        className="mx-auto mb-6 rounded-full border border-zinc-700 px-2 py-1 text-xs hover:bg-zinc-800 transition"
-        aria-label="Toggle sidebar"
-      >
-        {collapsed ? ">" : "<"}
-      </button>
 
       {/* Navigation */}
       <nav className="flex flex-col gap-2 px-3">

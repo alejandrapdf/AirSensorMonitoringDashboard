@@ -402,14 +402,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$
 ;
 function MetricCard(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "e6de539b6bc82f35aeaba85fced8d216a3fe4007f725bb086c14e02c141ece4b") {
+    if ($[0] !== "b3b05904285e29e05438361bdd9c678a977e86161ae4f65f6993d0c6eeff2d27") {
         for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e6de539b6bc82f35aeaba85fced8d216a3fe4007f725bb086c14e02c141ece4b";
+        $[0] = "b3b05904285e29e05438361bdd9c678a977e86161ae4f65f6993d0c6eeff2d27";
     }
     const { label, value, critical } = t0;
-    const t1 = `shadow-sm transition hover:shadow-md ${critical ? "border-red-400 bg-red-50 text-red-700" : "bg-white"}`;
+    const t1 = `shadow-sm transition hover:shadow-md border-none ${critical ? "border-red-400 bg-red-50 text-red-700" : "bg-white"}`;
     let t2;
     if ($[1] !== label) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
@@ -584,11 +584,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboa
 ;
 function MetricDisplaySection(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "976bba0b21d579a50719ae14dc142c8d64bf3273da1e5621984ad0e2e606c351") {
+    if ($[0] !== "35b38487470a620420ddd00e36c7037cb25bd16d2e826c0e9575b36e3a412797") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "976bba0b21d579a50719ae14dc142c8d64bf3273da1e5621984ad0e2e606c351";
+        $[0] = "35b38487470a620420ddd00e36c7037cb25bd16d2e826c0e9575b36e3a412797";
     }
     const { metric } = t0;
     const t1 = `Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`;
@@ -635,7 +635,7 @@ function MetricDisplaySection(t0) {
     let t5;
     if ($[5] !== t2) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "grid sm:grid-cols-3 gap-6 mt-3",
+            className: "grid sm:grid-cols-3 gap-6 mt-3 ",
             children: [
                 t2,
                 t3,
@@ -669,7 +669,7 @@ function MetricDisplaySection(t0) {
     let t8;
     if ($[8] !== t6) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mt-6 p-6 rounded-xl border bg-white shadow-sm flex items-center justify-center h-64",
+            className: "mt-6 p-6 rounded-xl  bg-white shadow-sm flex items-center justify-center h-64",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-gray-500 text-lg text-center",
                 children: [
@@ -680,7 +680,7 @@ function MetricDisplaySection(t0) {
             }, void 0, true, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
                 lineNumber: 67,
-                columnNumber: 111
+                columnNumber: 105
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",

@@ -24,7 +24,7 @@ export default function MetricDisplaySection({ metric, setMetric }) {
          These reflect currently selected metric (moisture/temperature)
          Values are placeholders — will map to derived data next phase.
       ================================================================== */}
-      <div className="grid sm:grid-cols-3 gap-6 mt-3">
+      <div className="grid sm:grid-cols-3 gap-6 mt-3 ">
         <MetricCard
           label={`Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`}
           value="--" // to be populated from dataset
@@ -40,7 +40,7 @@ export default function MetricDisplaySection({ metric, setMetric }) {
          Will later be replaced with <SensorChart data={...} metric={metric} />
          using Recharts/Chart.js once dataset is implemented.
       ================================================================== */}
-      <div className="mt-6 p-6 rounded-xl border bg-white shadow-sm flex items-center justify-center h-64">
+      <div className="mt-6 p-6 rounded-xl  bg-white shadow-sm flex items-center justify-center h-64">
         <p className="text-gray-500 text-lg text-center">
           📊 {metric === "moisture" ? "Soil Moisture Chart" : "Temperature Chart"}
           <span className="block text-sm opacity-70">
