@@ -394,13 +394,13 @@ var _s = __turbopack_context__.k.signature();
 function Topbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "c5c678a9a3dceb9015e39884793ec6a9f7931afc0a3d33480926b1add9416254") {
+    if ($[0] !== "8bca67ef36de7e4f5419061af0f0c5edda495b5469be2c2cec8a0862d14ddafe") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c5c678a9a3dceb9015e39884793ec6a9f7931afc0a3d33480926b1add9416254";
+        $[0] = "8bca67ef36de7e4f5419061af0f0c5edda495b5469be2c2cec8a0862d14ddafe";
     }
-    const [theme, setTheme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("light");
+    const [theme, setTheme] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     let t0;
     let t1;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -635,7 +635,7 @@ function Topbar() {
     }
     return t9;
 }
-_s(Topbar, "IrMlEBc/Den3m1xGJ32YBTbAgMs=");
+_s(Topbar, "VmYOwH6AxkwbOZdLRpYSNdC1j+A=");
 _c = Topbar;
 var _c;
 __turbopack_context__.k.register(_c, "Topbar");

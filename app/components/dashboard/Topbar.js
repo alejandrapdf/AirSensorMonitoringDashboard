@@ -32,7 +32,7 @@ export default function Topbar() {
    - Restores saved value on page load
    - Applies <html class="dark"> for full Tailwind theme switching
   ========================================================================== */
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(null);
 
   useEffect(() => {
     const saved = localStorage.getItem("theme") || "light";

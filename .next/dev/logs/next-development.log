@@ -1,112 +1,7 @@
-[00:00:01.016] Server  LOG      ✓ Ready in 656ms
-[00:00:04.078] Server  LOG      ○ Compiling / ...
-[00:00:04.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.914] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:04.914] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="flex h-scr...">
-                            <Sidebar>
-                            <div className="flex flex-...">
-                              <Topbar>
-                                <header
-+                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
--                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
-                                >
-                              ...
-                  ...
-
-[00:00:47.415] Server  LOG      ✓ Compiled in 98ms
-[00:00:54.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:54.186] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:54.186] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body className="flex h-scr...">
-                            <Sidebar>
-                            <div className="flex flex-...">
-                              <Topbar>
-                                <header
-+                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
--                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
-                                >
-                              ...
-                  ...
-
-[00:01:08.269] Server  LOG      ✓ Compiled in 64ms
-[00:01:24.039] Server  LOG      ✓ Compiled in 62ms
-[00:02:17.082] Server  LOG      ✓ Compiled in 102ms
-[00:02:22.612] Server  LOG      ✓ Compiled in 52ms
-[00:04:02.055] Server  LOG      ✓ Compiled in 35ms
-[00:05:41.861] Server  LOG      ✓ Compiled in 90ms
-[00:06:12.070] Server  LOG      ✓ Compiled in 61ms
-[00:06:27.556] Server  LOG      ✓ Compiled in 136ms
-[00:07:30.764] Server  LOG      ✓ Compiled in 148ms
-[00:07:44.902] Server  LOG      ✓ Compiled in 56ms
-[00:07:54.329] Server  LOG      ✓ Compiled in 62ms
-[00:08:42.622] Server  LOG      ✓ Compiled in 147ms
-[00:08:42.800] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:42.932] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:08:42.932] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.170] Server  LOG      ✓ Ready in 727ms
+[00:00:04.231] Server  LOG      ○ Compiling / ...
+[00:00:04.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.836] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -149,9 +44,9 @@ It can also happen if the client has a browser extension installed which messes 
                                   <div className="flex items...">
                                     <input
                                       type="text"
-                                      placeholder="Search sensors..."
-+                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white shadow-sm b..."}
--                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white shadow-sm border border-..."
+                                      placeholder="Search..."
++                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white dark:bg-zin..."}
+-                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white dark:bg-zinc-800 shadow-..."
                                     >
                                     <div className="relative" ref={{current:null}}>
                                       <button
@@ -163,6 +58,6 @@ It can also happen if the client has a browser extension installed which messes 
                               ...
                   ...
 
-[00:10:08.227] Server  LOG      ✓ Compiled in 85ms
-[00:11:59.488] Server  LOG      ✓ Compiled in 165ms
-[00:12:18.932] Server  LOG      ✓ Compiled in 97ms
+[00:00:30.694] Server  LOG      ✓ Compiled in 130ms
+[00:00:33.999] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

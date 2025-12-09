@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
-
-  devIndicators: {
-    appIsRunning: false, 
-  },
+  devIndicators: false, 
+  
 };
 
 export default nextConfig;
