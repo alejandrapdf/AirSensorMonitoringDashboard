@@ -489,17 +489,33 @@ __turbopack_context__.s([
     ()=>MetricToggle
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+/* ============================================================================
+   MetricToggle
+   ---------------------------------------------------------------------------
+   UI control for switching between two data views:
+   › Soil Moisture  (%)  
+   › Temperature    (°C)
+
+   Why this matters:
+   - Parent component owns state (useState in page.js)
+   - This toggle *does not* store its own state — it triggers updates upwards
+   - Ensures summary cards + chart both react to selection
+
+   Behaviour:
+   - Active selection highlights in brand green + elevated shadow
+   - Inactive options use neutral grey with hover feedback
+   - Fully keyboard accessible + screen-readable
+============================================================================ */ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 "use client";
 ;
 ;
 function MetricToggle(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "7fd2482b7f915c5e50b0c457337dd53f5e2d158bb23935cbb4a661131b61e833") {
+    if ($[0] !== "a2d007cfd5f51f8f4d61c69186a3e3ef829cfeb180ed55308a7d5e1f8ab5d165") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7fd2482b7f915c5e50b0c457337dd53f5e2d158bb23935cbb4a661131b61e833";
+        $[0] = "a2d007cfd5f51f8f4d61c69186a3e3ef829cfeb180ed55308a7d5e1f8ab5d165";
     }
     const { metric, setMetric } = t0;
     let t1;
@@ -517,24 +533,24 @@ function MetricToggle(t0) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex gap-3 mt-6",
             children: t1.map({
-                "MetricToggle[(anonymous)()]": (m)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                "MetricToggle[(anonymous)()]": (option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: {
-                            "MetricToggle[(anonymous)() > <button>.onClick]": ()=>setMetric(m)
+                            "MetricToggle[(anonymous)() > <button>.onClick]": ()=>setMetric(option)
                         }["MetricToggle[(anonymous)() > <button>.onClick]"],
                         className: `
             px-4 py-2 rounded-md font-semibold transition
-            ${metric === m ? "bg-[var(--green)] text-white shadow" : "bg-gray-200 text-gray-600 hover:bg-gray-300"}
+            ${metric === option ? "bg-[var(--green)] text-white shadow" : "bg-gray-200 text-gray-600 hover:bg-gray-300"}  // Unselected
           `,
-                        children: m === "moisture" ? "Soil Moisture" : "Temperature"
-                    }, m, false, {
+                        children: option === "moisture" ? "Soil Moisture" : "Temperature"
+                    }, option, false, {
                         fileName: "[project]/app/components/dashboard/MetricToggle.js",
-                        lineNumber: 26,
-                        columnNumber: 45
+                        lineNumber: 43,
+                        columnNumber: 50
                     }, this)
             }["MetricToggle[(anonymous)()]"])
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricToggle.js",
-            lineNumber: 25,
+            lineNumber: 42,
             columnNumber: 10
         }, this);
         $[2] = metric;
@@ -568,11 +584,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboa
 ;
 function MetricDisplaySection(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "7439e9af3724f88e9ce68a998d94e431b4c4d98a0102c1ae3d2c132a3889e1b4") {
+    if ($[0] !== "976bba0b21d579a50719ae14dc142c8d64bf3273da1e5621984ad0e2e606c351") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7439e9af3724f88e9ce68a998d94e431b4c4d98a0102c1ae3d2c132a3889e1b4";
+        $[0] = "976bba0b21d579a50719ae14dc142c8d64bf3273da1e5621984ad0e2e606c351";
     }
     const { metric } = t0;
     const t1 = `Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`;
@@ -583,7 +599,7 @@ function MetricDisplaySection(t0) {
             value: "--"
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 19,
+            lineNumber: 32,
             columnNumber: 10
         }, this);
         $[1] = t1;
@@ -599,7 +615,7 @@ function MetricDisplaySection(t0) {
             value: "--"
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 28,
+            lineNumber: 41,
             columnNumber: 10
         }, this);
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -607,7 +623,7 @@ function MetricDisplaySection(t0) {
             value: "--"
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 29,
+            lineNumber: 42,
             columnNumber: 10
         }, this);
         $[3] = t3;
@@ -627,7 +643,7 @@ function MetricDisplaySection(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 38,
+            lineNumber: 51,
             columnNumber: 10
         }, this);
         $[5] = t2;
@@ -640,10 +656,10 @@ function MetricDisplaySection(t0) {
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "block text-sm opacity-70",
-            children: "(awaiting data + chart setup)"
+            children: "(chart renders here once data + logic added)"
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 47,
+            lineNumber: 60,
             columnNumber: 10
         }, this);
         $[7] = t7;
@@ -655,7 +671,7 @@ function MetricDisplaySection(t0) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mt-6 p-6 rounded-xl border bg-white shadow-sm flex items-center justify-center h-64",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-gray-500 text-lg",
+                className: "text-gray-500 text-lg text-center",
                 children: [
                     "📊 ",
                     t6,
@@ -663,12 +679,12 @@ function MetricDisplaySection(t0) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 54,
+                lineNumber: 67,
                 columnNumber: 111
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 54,
+            lineNumber: 67,
             columnNumber: 10
         }, this);
         $[8] = t6;
@@ -686,7 +702,7 @@ function MetricDisplaySection(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-            lineNumber: 62,
+            lineNumber: 75,
             columnNumber: 10
         }, this);
         $[10] = t5;

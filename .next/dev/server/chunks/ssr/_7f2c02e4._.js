@@ -186,21 +186,22 @@ function MetricToggle({ metric, setMetric }) {
         children: [
             "moisture",
             "temperature"
-        ].map((m)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                onClick: ()=>setMetric(m),
-                className: `
+        ].map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                onClick: ()=>setMetric(option),
+                /* Tailwind styling: active = green highlight, inactive = grey base */ className: `
             px-4 py-2 rounded-md font-semibold transition
-            ${metric === m ? "bg-[var(--green)] text-white shadow" : "bg-gray-200 text-gray-600 hover:bg-gray-300"}
+            ${metric === option ? "bg-[var(--green)] text-white shadow" // Selected state
+                 : "bg-gray-200 text-gray-600 hover:bg-gray-300"}  // Unselected
           `,
-                children: m === "moisture" ? "Soil Moisture" : "Temperature"
-            }, m, false, {
+                children: option === "moisture" ? "Soil Moisture" : "Temperature"
+            }, option, false, {
                 fileName: "[project]/app/components/dashboard/MetricToggle.js",
-                lineNumber: 7,
+                lineNumber: 26,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/app/components/dashboard/MetricToggle.js",
-        lineNumber: 5,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -229,7 +230,7 @@ function MetricDisplaySection({ metric, setMetric }) {
                         value: "--"
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 15,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -237,7 +238,7 @@ function MetricDisplaySection({ metric, setMetric }) {
                         value: "--"
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 16,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricCard$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -245,45 +246,45 @@ function MetricDisplaySection({ metric, setMetric }) {
                         value: "--"
                     }, void 0, false, {
                         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                        lineNumber: 17,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 13,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "mt-6 p-6 rounded-xl border bg-white shadow-sm flex items-center justify-center h-64",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-500 text-lg",
+                    className: "text-gray-500 text-lg text-center",
                     children: [
                         "📊 ",
                         metric === "moisture" ? "Soil Moisture Chart" : "Temperature Chart",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "block text-sm opacity-70",
-                            children: "(awaiting data + chart setup)"
+                            children: "(chart renders here once data + logic added)"
                         }, void 0, false, {
                             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                            lineNumber: 25,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                    lineNumber: 23,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-                lineNumber: 22,
+                lineNumber: 43,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
-        lineNumber: 8,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }

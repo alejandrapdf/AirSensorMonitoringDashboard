@@ -81,11 +81,11 @@ var _s = __turbopack_context__.k.signature();
 function Sidebar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(34);
-    if ($[0] !== "14be9e47f3ce92561147355d2cce78b45176883e38486e4b9c161b95ca4b21a6") {
+    if ($[0] !== "850496e5a2700fe5f9d629ff1b91766e52dcd7d4b80500d72ef88e59270e8990") {
         for(let $i = 0; $i < 34; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "14be9e47f3ce92561147355d2cce78b45176883e38486e4b9c161b95ca4b21a6";
+        $[0] = "850496e5a2700fe5f9d629ff1b91766e52dcd7d4b80500d72ef88e59270e8990";
     }
     const [collapsed, setCollapsed] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -223,7 +223,7 @@ function Sidebar() {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SidebarItem, {
             href: "/secondPage",
             icon: t9,
-            label: "2Page",
+            label: "Sensors",
             collapsed: collapsed,
             pathname: pathname
         }, void 0, false, {
@@ -255,7 +255,7 @@ function Sidebar() {
         t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SidebarItem, {
             href: "/thirdPage",
             icon: t11,
-            label: "Third Page",
+            label: "Map",
             collapsed: collapsed,
             pathname: pathname
         }, void 0, false, {
@@ -332,11 +332,11 @@ _c = Sidebar;
  * =============================================================================
  */ function SidebarItem(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "14be9e47f3ce92561147355d2cce78b45176883e38486e4b9c161b95ca4b21a6") {
+    if ($[0] !== "850496e5a2700fe5f9d629ff1b91766e52dcd7d4b80500d72ef88e59270e8990") {
         for(let $i = 0; $i < 11; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "14be9e47f3ce92561147355d2cce78b45176883e38486e4b9c161b95ca4b21a6";
+        $[0] = "850496e5a2700fe5f9d629ff1b91766e52dcd7d4b80500d72ef88e59270e8990";
     }
     const { icon, label, collapsed, href, pathname } = t0;
     const isActive = pathname === href;

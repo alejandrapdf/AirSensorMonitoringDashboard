@@ -168,7 +168,7 @@ function Sidebar() {
                             lineNumber: 63,
                             columnNumber: 47
                         }, void 0),
-                        label: "2Page",
+                        label: "Sensors",
                         collapsed: collapsed,
                         pathname: pathname
                     }, void 0, false, {
@@ -185,7 +185,7 @@ function Sidebar() {
                             lineNumber: 64,
                             columnNumber: 47
                         }, void 0),
-                        label: "Third Page",
+                        label: "Map",
                         collapsed: collapsed,
                         pathname: pathname
                     }, void 0, false, {

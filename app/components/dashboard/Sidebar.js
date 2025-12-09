@@ -60,8 +60,8 @@ export default function Sidebar() {
       {/* Navigation */}
       <nav className="flex flex-col gap-2 px-3">
         <SidebarItem href="/" icon={<Home size={18} />}  label="Dashboard"  collapsed={collapsed} pathname={pathname} />
-        <SidebarItem href="/secondPage" icon={<Cpu size={18} />} label="2Page" collapsed={collapsed} pathname={pathname} />
-        <SidebarItem href="/thirdPage"  icon={<Map size={18} />} label="Third Page" collapsed={collapsed} pathname={pathname} />
+        <SidebarItem href="/secondPage" icon={<Cpu size={18} />} label="Sensors" collapsed={collapsed} pathname={pathname} />
+        <SidebarItem href="/thirdPage"  icon={<Map size={18} />} label="Map" collapsed={collapsed} pathname={pathname} />
       </nav>
     </aside>
   );
