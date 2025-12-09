@@ -21,7 +21,7 @@
 
 export default function MetricToggle({ metric, setMetric }) {
   return (
-    <div className="flex gap-3 mt-6">
+    <div className="flex gap-3 mt-6" role="tablist">
       {["moisture", "temperature"].map(m => {
         const active = metric === m;
 
@@ -29,6 +29,7 @@ export default function MetricToggle({ metric, setMetric }) {
           <button
             key={m}
             onClick={() => setMetric(m)}
+            aria-selected={active}
             className={`
               px-5 py-2 rounded-lg font-semibold transition
               border

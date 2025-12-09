@@ -103,7 +103,7 @@ const { values, latest, min, max } = useSensorData(metric);
     <section className="flex flex-col gap-6">
 
       {/* ========= SUMMARY CARDS ========= */}
-      <div className="grid sm:grid-cols-3 gap-6 mt-3 ">
+      <div className="grid sm:grid-cols-3 gap-6 mt-3 " data-cy="metric-cards">
         <MetricCard
           label={`Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`}
           value={`${latest}${metric === "moisture" ? "%" : "°C"}`}

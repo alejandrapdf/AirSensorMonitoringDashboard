@@ -513,11 +513,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function MetricToggle(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "66468aa65898d897aacc7c6b691326d38e140154afb54364ac25b4d1a04b4676") {
+    if ($[0] !== "3c6264440b09f197c32a36ff9182f8d6ef93daacad6fbdd9ea1b0157e751ac92") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "66468aa65898d897aacc7c6b691326d38e140154afb54364ac25b4d1a04b4676";
+        $[0] = "3c6264440b09f197c32a36ff9182f8d6ef93daacad6fbdd9ea1b0157e751ac92";
     }
     const { metric, setMetric } = t0;
     let t1;
@@ -534,6 +534,7 @@ function MetricToggle(t0) {
     if ($[2] !== metric || $[3] !== setMetric) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex gap-3 mt-6",
+            role: "tablist",
             children: t1.map({
                 "MetricToggle[(anonymous)()]": (m)=>{
                     const active = metric === m;
@@ -541,6 +542,7 @@ function MetricToggle(t0) {
                         onClick: {
                             "MetricToggle[(anonymous)() > <button>.onClick]": ()=>setMetric(m)
                         }["MetricToggle[(anonymous)() > <button>.onClick]"],
+                        "aria-selected": active,
                         className: `
               px-5 py-2 rounded-lg font-semibold transition
               border
@@ -761,11 +763,11 @@ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$d
 function MetricDisplaySection(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(42);
-    if ($[0] !== "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88") {
+    if ($[0] !== "c43c4c4e49f84821187d9b2e7cd81e71a649312f1069dccd32b27389815982f1") {
         for(let $i = 0; $i < 42; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0758cb8b5af1fbae0bbf18c370234759d59f58cbeaf152c67ca350117dad6a88";
+        $[0] = "c43c4c4e49f84821187d9b2e7cd81e71a649312f1069dccd32b27389815982f1";
     }
     const { metric } = t0;
     const { values, latest, min, max } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"])(metric);
@@ -911,6 +913,7 @@ function MetricDisplaySection(t0) {
     if ($[18] !== t10 || $[19] !== t12 || $[20] !== t14) {
         t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid sm:grid-cols-3 gap-6 mt-3 ",
+            "data-cy": "metric-cards",
             children: [
                 t10,
                 t12,
