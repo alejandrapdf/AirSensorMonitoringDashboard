@@ -17,28 +17,31 @@
    - Inactive options use neutral grey with hover feedback
    - Fully keyboard accessible + screen-readable
 ============================================================================ */
+
+
 export default function MetricToggle({ metric, setMetric }) {
   return (
     <div className="flex gap-3 mt-6">
+      {["moisture", "temperature"].map(m => {
+        const active = metric === m;
 
-      {/* Two buttons generated dynamically */}
-      {["moisture", "temperature"].map(option => (
-        <button
-          key={option}
-          onClick={() => setMetric(option)}         // Lift state update to parent
-
-          /* Tailwind styling: active = green highlight, inactive = grey base */
-          className={`
-            px-4 py-2 rounded-md font-semibold transition
-            ${metric === option 
-              ? "bg-[var(--green)] text-white shadow"   // Selected state
-              : "bg-gray-200 text-gray-600 hover:bg-gray-300"}  // Unselected
-          `}
-        >
-          {/* Label transforms internal values into human-readable names */}
-          {option === "moisture" ? "Soil Moisture" : "Temperature"}
-        </button>
-      ))}
+        return (
+          <button
+            key={m}
+            onClick={() => setMetric(m)}
+            className={`
+              px-5 py-2 rounded-lg font-semibold transition
+              border
+              ${active
+                ? "bg-[#2e2e2e] text-[#8FFFA2] border-[#72e06a] shadow-sm"  // MATCHES YOUR SIDEBAR
+                : "bg-transparent text-gray-300 border-gray-500 hover:text-white hover:border-gray-300"
+              }
+            `}
+          >
+            {m === "moisture" ? "Soil Moisture" : "Temperature"}
+          </button>
+        );
+      })}
     </div>
   );
 }

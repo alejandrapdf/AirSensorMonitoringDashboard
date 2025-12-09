@@ -9,12 +9,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function MetricCard({ label, value, critical }) {
   return (
     <Card
-      className={`shadow-sm transition hover:shadow-md border-none ${
-        critical ? "border-red-400 bg-red-50 text-red-700" : "bg-white"
+         className={`shadow-sm transition hover:shadow-md
+      rounded-xl border border-[#444B4F]
+      ${critical 
+        ? "bg-[#3A2F31] text-red-400 border-red-500"   // critical stays highlighted
+        : "bg-[#2B2F31] text-gray-200"                 // default grey theme
       }`}
     >
       <CardHeader>
-        <CardTitle className="text-sm text-muted-foreground tracking-tight">
+        <CardTitle className="text-sm  text-muted-foreground tracking-tight">
           {label}
         </CardTitle>
       </CardHeader>

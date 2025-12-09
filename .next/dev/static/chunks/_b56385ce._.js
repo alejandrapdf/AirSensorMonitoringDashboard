@@ -402,28 +402,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$
 ;
 function MetricCard(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "b3b05904285e29e05438361bdd9c678a977e86161ae4f65f6993d0c6eeff2d27") {
+    if ($[0] !== "6a2cd2690906bc3cefc24c9ec0f7624690792483cabde39d3dba031c908b5a43") {
         for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "b3b05904285e29e05438361bdd9c678a977e86161ae4f65f6993d0c6eeff2d27";
+        $[0] = "6a2cd2690906bc3cefc24c9ec0f7624690792483cabde39d3dba031c908b5a43";
     }
     const { label, value, critical } = t0;
-    const t1 = `shadow-sm transition hover:shadow-md border-none ${critical ? "border-red-400 bg-red-50 text-red-700" : "bg-white"}`;
+    const t1 = `shadow-sm transition hover:shadow-md
+      rounded-xl border border-[#444B4F]
+      ${critical ? "bg-[#3A2F31] text-red-400 border-red-500" : "bg-[#2B2F31] text-gray-200"}`;
     let t2;
     if ($[1] !== label) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                className: "text-sm text-muted-foreground tracking-tight",
+                className: "text-sm  text-muted-foreground tracking-tight",
                 children: label
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricCard.js",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 22
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricCard.js",
-            lineNumber: 26,
+            lineNumber: 28,
             columnNumber: 10
         }, this);
         $[1] = label;
@@ -439,12 +441,12 @@ function MetricCard(t0) {
                 children: value
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricCard.js",
-                lineNumber: 34,
+                lineNumber: 36,
                 columnNumber: 23
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricCard.js",
-            lineNumber: 34,
+            lineNumber: 36,
             columnNumber: 10
         }, this);
         $[3] = value;
@@ -462,7 +464,7 @@ function MetricCard(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/app/components/dashboard/MetricCard.js",
-            lineNumber: 42,
+            lineNumber: 44,
             columnNumber: 10
         }, this);
         $[5] = t1;
@@ -511,11 +513,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function MetricToggle(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "a2d007cfd5f51f8f4d61c69186a3e3ef829cfeb180ed55308a7d5e1f8ab5d165") {
+    if ($[0] !== "66468aa65898d897aacc7c6b691326d38e140154afb54364ac25b4d1a04b4676") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a2d007cfd5f51f8f4d61c69186a3e3ef829cfeb180ed55308a7d5e1f8ab5d165";
+        $[0] = "66468aa65898d897aacc7c6b691326d38e140154afb54364ac25b4d1a04b4676";
     }
     const { metric, setMetric } = t0;
     let t1;
@@ -533,20 +535,24 @@ function MetricToggle(t0) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex gap-3 mt-6",
             children: t1.map({
-                "MetricToggle[(anonymous)()]": (option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                "MetricToggle[(anonymous)()]": (m)=>{
+                    const active = metric === m;
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: {
-                            "MetricToggle[(anonymous)() > <button>.onClick]": ()=>setMetric(option)
+                            "MetricToggle[(anonymous)() > <button>.onClick]": ()=>setMetric(m)
                         }["MetricToggle[(anonymous)() > <button>.onClick]"],
                         className: `
-            px-4 py-2 rounded-md font-semibold transition
-            ${metric === option ? "bg-[var(--green)] text-white shadow" : "bg-gray-200 text-gray-600 hover:bg-gray-300"}  // Unselected
-          `,
-                        children: option === "moisture" ? "Soil Moisture" : "Temperature"
-                    }, option, false, {
+              px-5 py-2 rounded-lg font-semibold transition
+              border
+              ${active ? "bg-[#2e2e2e] text-[#8FFFA2] border-[#72e06a] shadow-sm" : "bg-transparent text-gray-300 border-gray-500 hover:text-white hover:border-gray-300"}
+            `,
+                        children: m === "moisture" ? "Soil Moisture" : "Temperature"
+                    }, m, false, {
                         fileName: "[project]/app/components/dashboard/MetricToggle.js",
-                        lineNumber: 43,
-                        columnNumber: 50
-                    }, this)
+                        lineNumber: 45,
+                        columnNumber: 18
+                    }, this);
+                }
             }["MetricToggle[(anonymous)()]"])
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricToggle.js",
@@ -584,11 +590,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboa
 ;
 function MetricDisplaySection(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "35b38487470a620420ddd00e36c7037cb25bd16d2e826c0e9575b36e3a412797") {
+    if ($[0] !== "4e1b029213f39f55cbca846c43747643a29d8b2aa9c94b39f191ab87df25b472") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "35b38487470a620420ddd00e36c7037cb25bd16d2e826c0e9575b36e3a412797";
+        $[0] = "4e1b029213f39f55cbca846c43747643a29d8b2aa9c94b39f191ab87df25b472";
     }
     const { metric } = t0;
     const t1 = `Latest ${metric === "moisture" ? "Soil Moisture" : "Temperature"}`;
@@ -669,7 +675,7 @@ function MetricDisplaySection(t0) {
     let t8;
     if ($[8] !== t6) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mt-6 p-6 rounded-xl  bg-white shadow-sm flex items-center justify-center h-64",
+            className: "mt-6 p-6 rounded-xl bg-[#2B2F31] shadow-sm flex items-center justify-center h-64",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-gray-500 text-lg text-center",
                 children: [
@@ -680,7 +686,7 @@ function MetricDisplaySection(t0) {
             }, void 0, true, {
                 fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
                 lineNumber: 67,
-                columnNumber: 105
+                columnNumber: 108
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/components/dashboard/MetricDisplaySection.js",
@@ -748,17 +754,17 @@ var _s = __turbopack_context__.k.signature();
 function HomePage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "df5c7207a62756bb7827792b3c21df9ad6c1b294da9f8179092e397dab1b700f") {
+    if ($[0] !== "c0d7d95479d572b82d8544df5c10f3ff1812fed4cd1b4e47159c9f0ce3a48242") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "df5c7207a62756bb7827792b3c21df9ad6c1b294da9f8179092e397dab1b700f";
+        $[0] = "c0d7d95479d572b82d8544df5c10f3ff1812fed4cd1b4e47159c9f0ce3a48242";
     }
     const [metric, setMetric] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("moisture");
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-            className: "text-xl font-semibold mb-6",
+            className: "text-xl font-semibold mb-6 text-zinc-900 dark:text-zinc-200",
             children: "Metrics"
         }, void 0, false, {
             fileName: "[project]/app/page.js",

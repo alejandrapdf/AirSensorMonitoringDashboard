@@ -61,3 +61,153 @@ It can also happen if the client has a browser extension installed which messes 
 [00:00:30.694] Server  LOG      ✓ Compiled in 130ms
 [00:00:33.999] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:19.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:19.860] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:19.860] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/secondPage" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="flex h-scr...">
+                            <Sidebar>
+                            <div className="flex flex-...">
+                              <Topbar>
+                                <header
++                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
+-                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
+                                >
+                                  <h1>
+                                  <div className="flex items...">
+                                    <input
+                                      type="text"
+                                      placeholder="Search..."
++                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white dark:bg-zin..."}
+-                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white dark:bg-zinc-800 shadow-..."
+                                    >
+                                    <div className="relative" ref={{current:null}}>
+                                      <button
+                                        onClick={function Topbar[<button>.onClick]}
++                                       className={"w-9 h-9 rounded-full bg-green-700 text-white font-bold\r\n       ..."}
+-                                       className="w-9 h-9 rounded-full bg-green-700 text-white font-bold   flex items..."
+                                      >
++                                       A
+                              ...
+                  ...
+
+[00:04:25.063] Server  LOG      ✓ Compiled in 122ms
+[00:04:28.107] Server  LOG      ✓ Compiled in 70ms
+[00:04:54.077] Server  LOG      ✓ Compiled in 64ms
+[00:05:16.515] Server  LOG      ✓ Compiled in 72ms
+[00:05:19.646] Server  LOG      ✓ Compiled in 35ms
+[00:05:22.361] Server  LOG      ✓ Compiled in 48ms
+[00:05:30.093] Server  LOG      ✓ Compiled in 45ms
+[00:05:31.974] Server  LOG      ✓ Compiled in 49ms
+[00:06:03.042] Server  LOG      ✓ Compiled in 43ms
+[00:06:54.958] Server  LOG      ✓ Compiled in 30ms
+[00:06:56.314] Server  LOG      ✓ Compiled in 53ms
+[00:07:33.156] Server  LOG      ✓ Compiled in 41ms
+[00:07:36.142] Server  LOG      ✓ Compiled in 29ms
+[00:07:45.783] Server  LOG      ✓ Compiled in 35ms
+[00:07:48.915] Server  LOG      ✓ Compiled in 33ms
+[00:07:53.762] Server  LOG      ✓ Compiled in 49ms
+[00:07:59.277] Server  LOG      ✓ Compiled in 27ms
+[00:08:03.789] Server  LOG      ✓ Compiled in 45ms
+[00:08:12.600] Server  LOG      ✓ Compiled in 50ms
+[00:08:14.918] Server  LOG      ✓ Compiled in 47ms
+[00:08:36.955] Server  LOG      ✓ Compiled in 37ms
+[00:09:54.713] Server  LOG      ✓ Compiled in 67ms
+[00:10:43.369] Server  LOG      ✓ Compiled in 42ms
+[00:11:39.600] Server  LOG      ✓ Compiled in 43ms
+[00:11:40.600] Browser ERROR   uncaughtError: ReferenceError: active is not defined
+[00:11:46.178] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:46.188] Server  LOG      ✓ Compiled in 34ms
+[00:11:46.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:46.699] Browser WARN    Image with src "/_next/static/media/soilScout.e042b2c7.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:11:46.699] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="flex h-scr...">
+                            <Sidebar>
+                            <div className="flex flex-...">
+                              <Topbar>
+                                <header
++                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
+-                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
+                                >
+                                  <h1>
+                                  <div className="flex items...">
+                                    <input
+                                      type="text"
+                                      placeholder="Search..."
++                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white dark:bg-zin..."}
+-                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white dark:bg-zinc-800 shadow-..."
+                                    >
+                                    <div className="relative" ref={{current:null}}>
+                                      <button
+                                        onClick={function Topbar[<button>.onClick]}
++                                       className={"w-9 h-9 rounded-full bg-green-700 text-white font-bold\r\n       ..."}
+-                                       className="w-9 h-9 rounded-full bg-green-700 text-white font-bold   flex items..."
+                                      >
++                                       A
+                              ...
+                  ...
+
+[00:12:03.459] Server  LOG      ✓ Compiled in 39ms
+[00:13:07.942] Server  LOG      ✓ Compiled in 54ms
+[00:13:59.710] Server  LOG      ✓ Compiled in 47ms

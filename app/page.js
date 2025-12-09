@@ -18,7 +18,9 @@ export default function HomePage() {
 
       {/* ========== METRIC OVERVIEW ========== */}
       <section>
-        <h3 className="text-xl font-semibold mb-6">Metrics</h3>
+        <h3 className="text-xl font-semibold mb-6 text-zinc-900 dark:text-zinc-200">
+  Metrics
+</h3>
       <MetricToggle metric={metric} setMetric={setMetric} />
       <MetricDisplaySection metric={metric} setMetric={setMetric} />
         

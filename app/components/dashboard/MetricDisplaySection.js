@@ -40,7 +40,7 @@ export default function MetricDisplaySection({ metric, setMetric }) {
          Will later be replaced with <SensorChart data={...} metric={metric} />
          using Recharts/Chart.js once dataset is implemented.
       ================================================================== */}
-      <div className="mt-6 p-6 rounded-xl  bg-white shadow-sm flex items-center justify-center h-64">
+      <div className="mt-6 p-6 rounded-xl bg-[#2B2F31] shadow-sm flex items-center justify-center h-64">
         <p className="text-gray-500 text-lg text-center">
           📊 {metric === "moisture" ? "Soil Moisture Chart" : "Temperature Chart"}
           <span className="block text-sm opacity-70">

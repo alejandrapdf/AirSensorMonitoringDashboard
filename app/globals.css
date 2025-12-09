@@ -8,8 +8,8 @@ html {
   --green: #719D54;
   --teal: #4F7477;
   --gray: #545656;
-  --bg: #F4F7F5;
-  --card-bg: #fff;
+  --bg: black;
+  --card-bg: lightgrey;
 
   /* Status colors */
   --critical: #D4483B;

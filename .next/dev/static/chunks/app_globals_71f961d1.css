@@ -35,6 +35,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-50: #fef2f2;
     --color-red-400: #ff6568;
+    --color-red-500: #fb2c36;
     --color-red-700: #bf000f;
     --color-green-300: #7bf1a8;
     --color-green-500: #00c758;
@@ -52,6 +53,7 @@
     --color-zinc-700: #3f3f46;
     --color-zinc-800: #27272a;
     --color-zinc-900: #18181b;
+    --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
     --text-sm: .875rem;
@@ -79,6 +81,7 @@
     :root, :host {
       --color-red-50: lab(96.5005% 4.18511 1.52329);
       --color-red-400: lab(63.7053% 60.7449 31.3109);
+      --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-red-700: lab(40.4273% 67.2623 53.7441);
       --color-green-300: lab(86.9953% -47.2691 25.0054);
       --color-green-500: lab(70.5521% -66.5147 45.8072);
@@ -631,8 +634,32 @@
     border-style: none;
   }
 
+  .border-\[\#2f4442\] {
+    border-color: #2f4442;
+  }
+
+  .border-\[\#72e06a\] {
+    border-color: #72e06a;
+  }
+
+  .border-\[\#444B4F\] {
+    border-color: #444b4f;
+  }
+
+  .border-\[var\(--green\)\] {
+    border-color: var(--green);
+  }
+
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
+  }
+
   .border-red-400 {
     border-color: var(--color-red-400);
+  }
+
+  .border-red-500 {
+    border-color: var(--color-red-500);
   }
 
   .border-zinc-200 {
@@ -643,12 +670,32 @@
     border-color: var(--color-zinc-300);
   }
 
+  .bg-\[\#2B2F31\] {
+    background-color: #2b2f31;
+  }
+
+  .bg-\[\#2e2e2e\] {
+    background-color: #2e2e2e;
+  }
+
+  .bg-\[\#3A2F31\] {
+    background-color: #3a2f31;
+  }
+
+  .bg-\[\#3d5a57\] {
+    background-color: #3d5a57;
+  }
+
   .bg-\[var\(--green\)\] {
     background-color: var(--green);
   }
 
   .bg-\[var\(--sidebar-bg\)\] {
     background-color: var(--sidebar-bg);
+  }
+
+  .bg-black {
+    background-color: var(--color-black);
   }
 
   .bg-gray-200 {
@@ -669,6 +716,10 @@
 
   .bg-red-50 {
     background-color: var(--color-red-50);
+  }
+
+  .bg-transparent {
+    background-color: #0000;
   }
 
   .bg-white {
@@ -705,6 +756,10 @@
 
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
 
   .px-6 {
@@ -780,6 +835,26 @@
     letter-spacing: var(--tracking-tight);
   }
 
+  .text-\[\#8FFFA2\] {
+    color: #8fffa2;
+  }
+
+  .text-\[\#72e06a\] {
+    color: #72e06a;
+  }
+
+  .text-black {
+    color: var(--color-black);
+  }
+
+  .text-gray-200 {
+    color: var(--color-gray-200);
+  }
+
+  .text-gray-300 {
+    color: var(--color-gray-300);
+  }
+
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -792,12 +867,20 @@
     color: var(--color-green-300);
   }
 
+  .text-red-400 {
+    color: var(--color-red-400);
+  }
+
   .text-red-700 {
     color: var(--color-red-700);
   }
 
   .text-white {
     color: var(--color-white);
+  }
+
+  .text-zinc-200 {
+    color: var(--color-zinc-200);
   }
 
   .text-zinc-300 {
@@ -831,6 +914,11 @@
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
+  .shadow-md {
+    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, #0000001a), 0 2px 4px -2px var(--tw-shadow-color, #0000001a);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+
   .shadow-sm {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -860,6 +948,18 @@
   }
 
   @media (hover: hover) {
+    .hover\:border-gray-300:hover {
+      border-color: var(--color-gray-300);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-\[\#466b67\]:hover {
+      background-color: #466b67;
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-gray-300:hover {
       background-color: var(--color-gray-300);
     }
@@ -874,6 +974,12 @@
   @media (hover: hover) {
     .hover\:bg-zinc-800:hover {
       background-color: var(--color-zinc-800);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-white:hover {
+      color: var(--color-white);
     }
   }
 
@@ -945,6 +1051,12 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:text-zinc-200 {
+      color: var(--color-zinc-200);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     @media (hover: hover) {
       .dark\:hover\:bg-zinc-700:hover {
         background-color: var(--color-zinc-700);
@@ -969,8 +1081,8 @@ html {
   --green: #719d54;
   --teal: #4f7477;
   --gray: #545656;
-  --bg: #f4f7f5;
-  --card-bg: #fff;
+  --bg: black;
+  --card-bg: lightgrey;
   --critical: #d4483b;
   --critical-border: #e6b5b0;
   --sidebar-bg: darkslategray;

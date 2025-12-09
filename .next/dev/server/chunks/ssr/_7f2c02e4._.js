@@ -132,20 +132,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$
 ;
 function MetricCard({ label, value, critical }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-        className: `shadow-sm transition hover:shadow-md border-none ${critical ? "border-red-400 bg-red-50 text-red-700" : "bg-white"}`,
+        className: `shadow-sm transition hover:shadow-md
+      rounded-xl border border-[#444B4F]
+      ${critical ? "bg-[#3A2F31] text-red-400 border-red-500" // critical stays highlighted
+         : "bg-[#2B2F31] text-gray-200" // default grey theme
+        }`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardHeader"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
-                    className: "text-sm text-muted-foreground tracking-tight",
+                    className: "text-sm  text-muted-foreground tracking-tight",
                     children: label
                 }, void 0, false, {
                     fileName: "[project]/app/components/dashboard/MetricCard.js",
-                    lineNumber: 17,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricCard.js",
-                lineNumber: 16,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -154,12 +158,12 @@ function MetricCard({ label, value, critical }) {
                     children: value
                 }, void 0, false, {
                     fileName: "[project]/app/components/dashboard/MetricCard.js",
-                    lineNumber: 22,
+                    lineNumber: 25,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/dashboard/MetricCard.js",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 7
             }, this)
         ]
@@ -186,22 +190,26 @@ function MetricToggle({ metric, setMetric }) {
         children: [
             "moisture",
             "temperature"
-        ].map((option)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                onClick: ()=>setMetric(option),
-                /* Tailwind styling: active = green highlight, inactive = grey base */ className: `
-            px-4 py-2 rounded-md font-semibold transition
-            ${metric === option ? "bg-[var(--green)] text-white shadow" // Selected state
-                 : "bg-gray-200 text-gray-600 hover:bg-gray-300"}  // Unselected
-          `,
-                children: option === "moisture" ? "Soil Moisture" : "Temperature"
-            }, option, false, {
+        ].map((m)=>{
+            const active = metric === m;
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                onClick: ()=>setMetric(m),
+                className: `
+              px-5 py-2 rounded-lg font-semibold transition
+              border
+              ${active ? "bg-[#2e2e2e] text-[#8FFFA2] border-[#72e06a] shadow-sm" // MATCHES YOUR SIDEBAR
+                 : "bg-transparent text-gray-300 border-gray-500 hover:text-white hover:border-gray-300"}
+            `,
+                children: m === "moisture" ? "Soil Moisture" : "Temperature"
+            }, m, false, {
                 fileName: "[project]/app/components/dashboard/MetricToggle.js",
-                lineNumber: 26,
-                columnNumber: 9
-            }, this))
+                lineNumber: 29,
+                columnNumber: 11
+            }, this);
+        })
     }, void 0, false, {
         fileName: "[project]/app/components/dashboard/MetricToggle.js",
-        lineNumber: 22,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }
@@ -256,7 +264,7 @@ function MetricDisplaySection({ metric, setMetric }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-6 p-6 rounded-xl  bg-white shadow-sm flex items-center justify-center h-64",
+                className: "mt-6 p-6 rounded-xl bg-[#2B2F31] shadow-sm flex items-center justify-center h-64",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-500 text-lg text-center",
                     children: [
@@ -318,7 +326,7 @@ function HomePage() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "text-xl font-semibold mb-6",
+                    className: "text-xl font-semibold mb-6 text-zinc-900 dark:text-zinc-200",
                     children: "Metrics"
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
@@ -330,7 +338,7 @@ function HomePage() {
                     setMetric: setMetric
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 22,
+                    lineNumber: 24,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$dashboard$2f$MetricDisplaySection$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -338,7 +346,7 @@ function HomePage() {
                     setMetric: setMetric
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 23,
+                    lineNumber: 25,
                     columnNumber: 7
                 }, this)
             ]
