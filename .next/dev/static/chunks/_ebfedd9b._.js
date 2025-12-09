@@ -771,16 +771,16 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-// Registered globally → reduces repetition across components
+// Registered globally reduces repetition across components
 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Chart"].register(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["CategoryScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LinearScale"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["LineElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PointElement"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Tooltip"], __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$chart$2e$js$2f$dist$2f$chart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Legend"]);
 function MetricDisplaySection(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(42);
-    if ($[0] !== "10b6c0737c5ef9a4f56390b037c6c5a86ddbeecb9f3368de321c861aa4b66da1") {
+    if ($[0] !== "9cc3c746c038065a753bcbdd8104a414fa3041e3c669af819bca56723332dd66") {
         for(let $i = 0; $i < 42; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "10b6c0737c5ef9a4f56390b037c6c5a86ddbeecb9f3368de321c861aa4b66da1";
+        $[0] = "9cc3c746c038065a753bcbdd8104a414fa3041e3c669af819bca56723332dd66";
     }
     const { metric } = t0;
     const { values, latest, min, max } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$hooks$2f$useSensorData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSensorData"])(metric);

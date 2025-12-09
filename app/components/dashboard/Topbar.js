@@ -62,8 +62,7 @@ export default function Topbar() {
 
   return (
     <header
-      className="flex items-center justify-between w-full px-6 py-4
-      bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50
+      className="flex items-center justify-between w-full px-6 py-4 dark:bg--zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50
       border-b border-zinc-200 dark:border-zinc-800"
     >
 

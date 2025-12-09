@@ -401,11 +401,11 @@ var _s = __turbopack_context__.k.signature();
 function Topbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "e9d49253d3bc41d1006a22d9cf40d448e3735d93d18699cf2005c282ef390756") {
+    if ($[0] !== "7b5da58f887a7c945fed46d27f6cf6f5a7fc557f8987eadd5857dfe6c05f1439") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e9d49253d3bc41d1006a22d9cf40d448e3735d93d18699cf2005c282ef390756";
+        $[0] = "7b5da58f887a7c945fed46d27f6cf6f5a7fc557f8987eadd5857dfe6c05f1439";
     }
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const menuRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -548,7 +548,7 @@ function Topbar() {
     let t6;
     if ($[8] !== t5) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-            className: "flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50\r\n      border-b border-zinc-200 dark:border-zinc-800",
+            className: "flex items-center justify-between w-full px-6 py-4 dark:bg--zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50\r\n      border-b border-zinc-200 dark:border-zinc-800",
             children: [
                 t2,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -565,13 +565,13 @@ function Topbar() {
                         }, void 0, true, {
                             fileName: "[project]/app/components/dashboard/Topbar.js",
                             lineNumber: 95,
-                            columnNumber: 257
+                            columnNumber: 254
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/dashboard/Topbar.js",
                     lineNumber: 95,
-                    columnNumber: 212
+                    columnNumber: 209
                 }, this)
             ]
         }, void 0, true, {

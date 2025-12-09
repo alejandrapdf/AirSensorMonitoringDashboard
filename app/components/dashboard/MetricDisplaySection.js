@@ -30,7 +30,7 @@ import {
   Legend
 } from "chart.js";
 
-// Registered globally → reduces repetition across components
+// Registered globally reduces repetition across components
 ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip, Legend);
 
 
@@ -89,7 +89,7 @@ export default function MetricDisplaySection({ metric }) {
 
 
   /* =============================================================================
-     Layout Rationale
+     Layout & Visual Hierarchy
      -----------------------------------------------------------------------------
      1. Numeric summaries are placed before the chart — numbers are parsed faster
      2. Three-card layout provides balance and predictable reading rhythm
@@ -132,8 +132,8 @@ export default function MetricDisplaySection({ metric }) {
             datasets: [
               {
                 ...chartData.datasets[0],
-                borderWidth: 4,      // Reinforces confidence + clarity of trend
-                pointRadius: 7,      // Ensures each sensor reading stands out
+                borderWidth: 4,      
+                pointRadius: 7,     
                 pointHoverRadius: 11,
                 borderColor: "rgb(16,185,129)",
                 backgroundColor: "rgba(16,185,129,0.22)"

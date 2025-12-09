@@ -590,6 +590,10 @@
     justify-self: flex-end;
   }
 
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
   .rounded {
     border-radius: .25rem;
   }

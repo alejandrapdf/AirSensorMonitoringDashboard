@@ -33020,3 +33020,65 @@ It can also happen if the client has a browser extension installed which messes 
 [00:33:30.697] Server  LOG      ✓ Compiled in 86ms
 [00:33:41.778] Server  LOG      ✓ Compiled in 73ms
 [00:34:29.900] Server  LOG      ✓ Compiled in 74ms
+[00:37:08.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:08.551] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="flex h-scr...">
+                            <Sidebar>
+                            <div className="flex flex-...">
+                              <Topbar>
+                                <header
++                                 className={"flex items-center justify-between w-full px-6 py-4\r\n      bg-zinc-100..."}
+-                                 className="flex items-center justify-between w-full px-6 py-4   bg-zinc-100 dark:bg-..."
+                                >
+                                  <h1>
+                                  <div className="flex items...">
+                                    <input
+                                      type="text"
+                                      placeholder="Search..."
++                                     className={"w-64 px-3 py-2 rounded-lg text-sm\r\n          bg-white dark:bg-zin..."}
+-                                     className="w-64 px-3 py-2 rounded-lg text-sm   bg-white dark:bg-zinc-800 shadow-..."
+                                    >
+                                    <div className="relative" ref={{current:null}}>
+                                      <button
+                                        onClick={function Topbar[<button>.onClick]}
++                                       className={"w-9 h-9 rounded-full bg-green-700 text-white font-bold\r\n       ..."}
+-                                       className="w-9 h-9 rounded-full bg-green-700 text-white font-bold   flex items..."
+                                      >
++                                       A
+                              ...
+                  ...
+
+[00:37:53.922] Server  LOG      ✓ Compiled in 98ms
+[00:38:05.467] Server  LOG      ✓ Compiled in 83ms
+[00:38:35.064] Server  LOG      ✓ Compiled in 50ms
+[00:40:05.932] Server  LOG      ✓ Compiled in 147ms
