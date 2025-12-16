@@ -1,7 +1,7 @@
-## SoilScout — Site Health Monitoring Dashboard
+## Air Health Monitoring Dashboard
 
 A clean, responsive **Next.js sensor dashboard** designed for clarity, scalability, and modern UI best-practice.
-Visualizes soil moisture + temperature trends, includes responsive chart display, and supports future expansion to real API data streams.
+Visualizes air moisture + temperature trends, includes responsive chart display, and supports future expansion to real API data streams.
 
 ---
 
@@ -19,7 +19,7 @@ Visualizes soil moisture + temperature trends, includes responsive chart display
 
 | Feature                      | Detail                                                     |
 | ---------------------------- | ---------------------------------------------------------- |
-| 📊 Sensor Metric Dashboard   | Soil Moisture + Temperature with trend visualisation       |
+| 📊 Sensor Metric Dashboard   | Moisture + Temperature with trend visualisation       |
 | 🔄 Metric Toggle             | Instantly switch data displayed in the chart               |
 | 📈 Summary Stats             | Min / Max / Latest values auto-computed via custom hook    |
 | 🎨 Responsive UI + Dark Mode | Works on desktop + mobile, theme persists via localStorage |
